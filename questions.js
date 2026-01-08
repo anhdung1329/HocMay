@@ -3512,5 +3512,2682 @@ const questionBank = [
             "Phân phối xác suất."
         ],
         answer: "Phân phối xác suất cho các biến liên tục."
+    },
+	// --- BẮT ĐẦU ĐỀ 04 (MÃ CHAPTER 9) ---
+    {
+        id: 293,
+        chapter: 9,
+        question: "Câu 1. Giả sử bạn muốn sử dụng học máy để xây dựng hệ thống phân loại email rác. Quy trình đúng là gì?\n(i) Chuẩn bị dữ liệu -> (ii) Huấn luyện mô hình -> (iii) Dự đoán dữ liệu mới.",
+        options: [
+            "(iii) (ii) (i)",
+            "(ii) (i) (iii)",
+            "(i) (iii) (ii)",
+            "(i) (ii) (iii)"
+        ],
+        answer: "(i) (ii) (iii)"
+    },
+    {
+        id: 294,
+        chapter: 9,
+        question: "Câu 2. Ví dụ nào sau đây là một bài toán phân lớp điển hình?",
+        options: [
+            "Dự đoán giá nhà dựa trên diện tích và số phòng.",
+            "Tìm các nhóm khách hàng có hành vi mua sắm tương tự.",
+            "Phân loại email vào hộp thư đến hoặc thư rác.",
+            "Dự báo lượng mưa trong ngày mai."
+        ],
+        answer: "Phân loại email vào hộp thư đến hoặc thư rác."
+    },
+    {
+        id: 295,
+        chapter: 9,
+        question: "Câu 3. Trong ma trận nhầm lẫn (confusion matrix), thuật ngữ “dương tính giả” (False Positive - FP) ám chỉ điều gì?",
+        options: [
+            "Mô hình dự đoán dương tính và nhãn thực tế là dương tính.",
+            "Mô hình dự đoán dương tính trong khi nhãn thực tế là âm tính.",
+            "Mô hình dự đoán là âm tính trong khi nhãn thực tế là dương tính.",
+            "Mô hình dự đoán âm tính và nhãn thực tế là âm tính."
+        ],
+        answer: "Mô hình dự đoán dương tính trong khi nhãn thực tế là âm tính."
+    },
+    {
+        id: 296,
+        chapter: 9,
+        question: "Câu 4. Trong bài toán phân loại nhị phân, độ đo nào biểu thị tỷ lệ phần trăm các trường hợp dương tính (positive) được mô hình dự đoán đúng trên tổng số các trường hợp dương tính thực tế?",
+        options: [
+            "Điểm F1 (F1-score)",
+            "Độ phủ (Recall/Sensitivity)",
+            "Độ chính xác (Precision)",
+            "Độ chính xác tổng thể (Accuracy)"
+        ],
+        answer: "Độ phủ (Recall/Sensitivity)"
+    },
+    {
+        id: 297,
+        chapter: 9,
+        question: "Câu 5. Phương pháp nào thường được sử dụng để huấn luyện các mô hình học máy trên tập dữ liệu lớn?",
+        options: [
+            "Giảm dốc theo lô (Batch Gradient Descent)",
+            "Phương pháp nghiệm đóng (Closed-form)",
+            "Giảm dốc theo lô nhỏ (Mini-batch Gradient Descent)",
+            "Giảm dốc ngẫu nhiên (Stochastic Gradient Descent - SGD)"
+        ],
+        answer: "Giảm dốc ngẫu nhiên (Stochastic Gradient Descent - SGD)"
+    },
+    {
+        id: 298,
+        chapter: 9,
+        question: "Câu 6. Hồi quy logistic thường được sử dụng để giải quyết bài toán nào sau đây?",
+        options: [
+            "Phân loại nhị phân hoặc đa lớp.",
+            "Dự đoán giá trị liên tục.",
+            "Giảm chiều dữ liệu.",
+            "Phân cụm dữ liệu."
+        ],
+        answer: "Phân loại nhị phân hoặc đa lớp."
+    },
+    {
+        id: 299,
+        chapter: 9,
+        question: "Câu 7. Giả định “ngây thơ” (naive) trong thuật toán Naive Bayes đề cập đến:",
+        options: [
+            "Các đặc trưng phụ thuộc lẫn nhau.",
+            "Các đặc trưng độc lập với nhau khi biết nhãn của mẫu dữ liệu.",
+            "Mô hình yêu cầu lượng dữ liệu huấn luyện lớn.",
+            "Tất cả các tính năng đều liên tục."
+        ],
+        answer: "Các đặc trưng độc lập với nhau khi biết nhãn của mẫu dữ liệu."
+    },
+    {
+        id: 300,
+        chapter: 9,
+        question: "Câu 8. Trong thuật toán kNN, giá trị “k” dùng để chỉ:",
+        options: [
+            "Số lượng lớp trong dữ liệu.",
+            "Thước đo khoảng cách dùng để đo độ tương tự.",
+            "Số lượng đặc trưng được sử dụng trong mô hình.",
+            "Số lượng láng giềng gần nhất được xem xét để dự đoán."
+        ],
+        answer: "Số lượng láng giềng gần nhất được xem xét để dự đoán."
+    },
+    {
+        id: 301,
+        chapter: 9,
+        question: "Câu 9. Thuộc tính A có lợi thông tin (Information Gain) là 0.8 và thuộc tính B là 0.6. Nên chọn thuộc tính nào để phân chia?",
+        options: [
+            "Thuộc tính A",
+            "Không đủ thông tin để quyết định",
+            "Thuộc tính B",
+            "Cả hai thuộc tính đều như nhau"
+        ],
+        answer: "Thuộc tính A"
+    },
+    {
+        id: 302,
+        chapter: 9,
+        question: "Câu 10. Thuật toán Perceptron có thể phân loại chính xác trong trường hợp nào?",
+        options: [
+            "Dữ liệu không thể phân tách tuyến tính",
+            "Bất kỳ loại dữ liệu nào",
+            "Dữ liệu phân loại có nhiều nhãn",
+            "Dữ liệu có thể phân tách tuyến tính"
+        ],
+        answer: "Dữ liệu có thể phân tách tuyến tính"
+    },
+    {
+        id: 303,
+        chapter: 9,
+        question: "Câu 11. Mục tiêu của SVM trong quá trình huấn luyện mô hình phân lớp là gì?",
+        options: [
+            "Đạt độ chính xác cao nhất về dữ liệu huấn luyện.",
+            "Tăng độ phức tạp của biên quyết định.",
+            "Giảm thiểu khoảng cách (margin) giữa các lớp.",
+            "Tối đa hóa khoảng cách (margin) giữa siêu phẳng phân tách và các điểm gần nhất."
+        ],
+        answer: "Tối đa hóa khoảng cách (margin) giữa siêu phẳng phân tách và các điểm gần nhất."
+    },
+    {
+        id: 304,
+        chapter: 9,
+        question: "Câu 12. Tính toán Gradient Descent: Với θ=[4.49, -4.58, -0.42], x=[1.0, 1.85, 0.7], y=-7.98, η=0.02. Tham số θ mới là bao nhiêu?",
+        options: [
+            "θ = [4.56 −4.44 −0.37]",
+            "θ = [4.34 −4.85 −0.52]",
+            "θ = [4.42 −4.72 −0.47]",
+            "θ = [3.7 6.85 2.59]"
+        ],
+        answer: "θ = [4.42 −4.72 −0.47]"
+    },
+    {
+        id: 305,
+        chapter: 9,
+        question: "Câu 13. Tính xác suất Naive Bayes P(x|No) với x={Male, Young, Medium}. Biết lớp No có: {Male, Young, Low}, {Female, Young, Med}, {Male, Mid, Low}.",
+        options: [
+            "0.085",
+            "0.063",
+            "0.031",
+            "0.148"
+        ],
+        answer: "0.148"
+    },
+    {
+        id: 306,
+        chapter: 9,
+        question: "Câu 14. Dữ liệu: (5,2,A), (5,4,C), (1,3,C), (2,5,B), (2,8,C). Tìm nhãn cho x=(9,2) dùng kNN (K=3, Manhattan)?",
+        options: [
+            "A",
+            "C",
+            "Một trong các nhãn A, B",
+            "B"
+        ],
+        answer: "C"
+    },
+    {
+        id: 307,
+        chapter: 9,
+        question: "Câu 15. Tính lợi thông tin (Information Gain) khi sử dụng thuộc tính “Acidity” để phân chia tập dữ liệu đã cho (Entropy gốc ~0.985)?",
+        options: [
+            "0.07",
+            "0.59",
+            "0.92",
+            "0.39"
+        ],
+        answer: "0.59"
+    },
+    {
+        id: 308,
+        chapter: 9,
+        question: "Câu 16. Tìm trọng số w, b cho Hard-margin SVM với các vector hỗ trợ: [3, 1], [9, 6], [-7, -1] và lambda tương ứng [0.42, 0.24, 0.18].",
+        options: [
+            "w = [0.36 −0.84], b = −1.57",
+            "w = [2.16 1.68], b = 0.75",
+            "w = [2.16 1.68], b = −1.57",
+            "w = [0.36 −0.84], b = 0.75"
+        ],
+        answer: "w = [0.36 −0.84], b = 0.75"
+    },
+    {
+        id: 309,
+        chapter: 9,
+        question: "Câu 17. Mạng nơ-ron: 10 input -> 6 ẩn -> 5 ẩn -> 3 output. Số lượng trọng số (không bao gồm bias)?",
+        options: [
+            "126",
+            "101",
+            "105",
+            "119"
+        ],
+        answer: "105"
+    },
+    {
+        id: 310,
+        chapter: 9,
+        question: "Câu 18. Trong SVM mềm (soft-margin), nếu tăng giá trị tham số C thì điều gì xảy ra?",
+        options: [
+            "Mô hình đơn giản hơn và dễ underfitting.",
+            "Không ảnh hưởng đến mô hình.",
+            "Lề của mô hình luôn được tối đa hóa.",
+            "Mô hình phức tạp hơn và dễ overfitting."
+        ],
+        answer: "Mô hình phức tạp hơn và dễ overfitting."
+    },
+    {
+        id: 311,
+        chapter: 9,
+        question: "Câu 19. Việc chọn giá trị k trong kNN ảnh hưởng như thế nào? (Chọn phát biểu đúng nhất về k lớn)",
+        options: [
+            "k nhỏ làm giảm khả năng mô hình với nhiễu nhưng gây underfitting.",
+            "k nhỏ không ảnh hưởng đến hiệu suất.",
+            "k lớn làm tăng độ nhạy và gây overfitting.",
+            "k lớn làm giảm độ nhạy (smooth) nhưng có thể gây underfitting."
+        ],
+        answer: "k lớn làm giảm độ nhạy (smooth) nhưng có thể gây underfitting."
+    },
+    {
+        id: 312,
+        chapter: 9,
+        question: "Câu 20. SVM thường ít nhạy cảm hơn với:",
+        options: [
+            "Không khớp (underfitting)",
+            "Overfitting",
+            "Nhiễu nhỏ",
+            "Dữ liệu lớn"
+        ],
+        answer: "Overfitting"
+    },
+	// --- BẮT ĐẦU ĐỀ 8 (KIỂM TRA GIỮA KỲ - ĐỀ 27) - MÃ CHAPTER 10 ---
+    {
+        id: 313,
+        chapter: 10,
+        question: "Câu 1. Các bước nào sau đây không thuộc giai đoạn chuẩn bị dữ liệu khi xây dựng ứng dụng học máy?",
+        options: [
+            "Làm sạch dữ liệu (data cleaning).",
+            "Đánh giá hiệu suất của mô hình.",
+            "Chuẩn hóa dữ liệu (data normalization).",
+            "Phân tích khám phá dữ liệu (EDA)."
+        ],
+        answer: "Đánh giá hiệu suất của mô hình."
+    },
+    {
+        id: 314,
+        chapter: 10,
+        question: "Câu 2. Ứng dụng phát hiện gian lận thẻ tín dụng. Phát biểu nào đúng?\n(i) Tập huấn luyện và kiểm nghiệm có thể trùng nhau.\n(ii) Tập huấn luyện không cần nhãn.\n(iii) Dùng cho học có giám sát.\n(iv) Bao gồm đầu vào và nhãn.",
+        options: [
+            "(iii) và (iv)",
+            "(i), (ii) và (iii)",
+            "(i), (iii) và (iv)",
+            "Cả 4 phát biểu trên"
+        ],
+        answer: "(iii) và (iv)"
+    },
+    {
+        id: 315,
+        chapter: 10,
+        question: "Câu 3. Trong phân loại nhị phân, độ đo nào biểu thị tỷ lệ mẫu dự đoán dương tính thực sự trên tổng số mẫu mô hình dự đoán là dương tính?",
+        options: [
+            "Điểm F1 (F1-score)",
+            "Độ chính xác (Precision)",
+            "Độ chính xác tổng thể (Accuracy)",
+            "Độ phủ (Recall/Sensitivity)"
+        ],
+        answer: "Độ chính xác (Precision)"
+    },
+    {
+        id: 316,
+        chapter: 10,
+        question: "Câu 4. Phương pháp đánh giá chéo nào chia ngẫu nhiên dữ liệu thành train/test và lặp lại nhiều lần?",
+        options: [
+            "Đánh giá chéo k-fold (K-fold cross-validation)",
+            "Lấy mẫu con ngẫu nhiên (Random subsampling)",
+            "Lấy mẫu Bootstrap (Bootstrap sampling)",
+            "Đánh giá chéo một dữ liệu (Leave-one-out)"
+        ],
+        answer: "Lấy mẫu con ngẫu nhiên (Random subsampling)"
+    },
+    {
+        id: 317,
+        chapter: 10,
+        question: "Câu 5. Trong Mini-batch Gradient Descent, đạo hàm được xấp xỉ dựa trên:",
+        options: [
+            "Một phần nhỏ ngẫu nhiên của tập dữ liệu huấn luyện (lô nhỏ)",
+            "Một mẫu dữ liệu duy nhất",
+            "Toàn bộ tập dữ liệu huấn luyện (batch)",
+            "Phương pháp quy hoạch động"
+        ],
+        answer: "Một phần nhỏ ngẫu nhiên của tập dữ liệu huấn luyện (lô nhỏ)"
+    },
+    {
+        id: 318,
+        chapter: 10,
+        question: "Câu 6. Hàm sigmoid trong hồi quy logistic có vai trò:",
+        options: [
+            "Tính toán lỗi dự đoán",
+            "Biến đổi giá trị dự đoán thành xác suất thuộc về một lớp nhất định",
+            "Giảm kích thước dữ liệu",
+            "Cân bằng dữ liệu"
+        ],
+        answer: "Biến đổi giá trị dự đoán thành xác suất thuộc về một lớp nhất định"
+    },
+    {
+        id: 319,
+        chapter: 10,
+        question: "Câu 7. Trong huấn luyện Naive Bayes, ta cần tính toán những gì?",
+        options: [
+            "(i) và (iii)",
+            "(ii) (Xác suất tiên nghiệm) và (iii) (Xác suất có điều kiện)",
+            "Cả ba xác suất trên",
+            "(i) và (ii)"
+        ],
+        answer: "(ii) (Xác suất tiên nghiệm) và (iii) (Xác suất có điều kiện)"
+    },
+    {
+        id: 320,
+        chapter: 10,
+        question: "Câu 8. Độ đo khoảng cách thường dùng trong thuật toán KNN là:",
+        options: [
+            "Độ lệch chuẩn",
+            "Gini index",
+            "Khoảng cách Euclidean",
+            "Entropy"
+        ],
+        answer: "Khoảng cách Euclidean"
+    },
+    {
+        id: 321,
+        chapter: 10,
+        question: "Câu 9. Mục tiêu chính của thuật toán cây quyết định là:",
+        options: [
+            "Dự đoán xu hướng của dữ liệu tương lai.",
+            "Tối ưu hóa hàm mục tiêu.",
+            "Xây dựng cấu trúc dữ liệu dạng cây.",
+            "Tạo mô hình phân loại hoặc hồi quy dưới dạng cây"
+        ],
+        answer: "Tạo mô hình phân loại hoặc hồi quy dưới dạng cây"
+    },
+    {
+        id: 322,
+        chapter: 10,
+        question: "Câu 10. Thuật toán Perceptron được sử dụng để giải quyết bài toán nào?",
+        options: [
+            "Phân loại nhị phân",
+            "Hồi quy tuyến tính",
+            "Phân cụm",
+            "Giảm chiều dữ liệu"
+        ],
+        answer: "Phân loại nhị phân"
+    },
+    {
+        id: 323,
+        chapter: 10,
+        question: "Câu 11. Thứ tự các bước trong SVM để tìm siêu phẳng phân tách theo phương pháp đối ngẫu Lagrange?",
+        options: [
+            "Xây dựng hàm Lagrange -> Tìm nhân tử -> Xác định vector hỗ trợ -> Tính w, b",
+            "Tìm nhân tử -> Xác định vector hỗ trợ -> Xây dựng hàm Lagrange -> Tính w, b",
+            "Tính w, b -> Xác định vector hỗ trợ -> Tìm nhân tử -> Xây dựng hàm Lagrange",
+            "Xác định vector hỗ trợ -> Tìm nhân tử -> Xây dựng hàm Lagrange -> Tính w, b"
+        ],
+        answer: "Xây dựng hàm Lagrange -> Tìm nhân tử -> Xác định vector hỗ trợ -> Tính w, b"
+    },
+    {
+        id: 324,
+        chapter: 10,
+        question: "Câu 12. Tính Gradient Descent hồi quy tuyến tính: θ_init=[-1.64, -1.98, 1.98], x=[1, 0.61, 0.27], y=4.24, η=0.01. Tìm θ mới?",
+        options: [
+            "θ = [−1.57  −1.94  2.00]",
+            "θ = [−1.71  −2.02  1.96]",
+            "θ = [−1.51  −1.90  2.02]",
+            "θ = [−6.55  −4.00  −1.77]"
+        ],
+        answer: "θ = [−1.57  −1.94  2.00]"
+    },
+    {
+        id: 325,
+        chapter: 10,
+        question: "Câu 13. Tính xác suất Naive Bayes P(x|No) với x=(Female, Middle-aged, Low). Dữ liệu: 1(M,Y,L,No), 2(F,M,M,Yes), 3(M,S,H,Yes), 4(F,Y,M,No), 5(M,M,L,No), 6(F,S,H,Yes), 7(M,Y,H,Yes).",
+        options: [
+            "0.018",
+            "0.074",
+            "0.042",
+            "0.032"
+        ],
+        answer: "0.018"
+    },
+    {
+        id: 326,
+        chapter: 10,
+        question: "Câu 14. KNN (K=3, Manhattan). Dữ liệu: (8,3,A), (6,4,C), (7,9,C), (2,1,A), (1,9,B). Nhãn của điểm (7,3)?",
+        options: [
+            "C",
+            "A",
+            "Một trong các nhãn sau: B",
+            "Một trong các nhãn: A, B"
+        ],
+        answer: "C"
+    },
+    {
+        id: 327,
+        chapter: 10,
+        question: "Câu 15. Tính Information Gain của thuộc tính “Sentiment Word” (Happy, Sad, Neutral). Pos: 4, Neg: 3. Happy(3+,0-), Sad(0+,2-), Neutral(1+,1-).",
+        options: [
+            "0.29",
+            "1.00",
+            "0.70",
+            "0.01"
+        ],
+        answer: "0.70"
+    },
+    {
+        id: 328,
+        chapter: 10,
+        question: "Câu 16. Hard margin SVM. Vector hỗ trợ: [2, 9], [-1, 5], [2, 3] và lambda [0.01, 0.15, 0.15]. Tìm w, b?",
+        options: [
+            "w = [0.17  1.29], b = -1.45",
+            "w = [-0.43  0.39], b = -1.45",
+            "w = [-0.43  0.39], b = -1.24",
+            "w = [0.17  1.29], b = -1.24"
+        ],
+        answer: "w = [-0.43  0.39], b = -1.45"
+    },
+    {
+        id: 329,
+        chapter: 10,
+        question: "Câu 17. Cập nhật trọng số Perceptron. w=[1.3, 2.8, 3.8], b=7.8. x=[-3.4, -7.1, 2.6], y=1. Trọng số mới?",
+        options: [
+            "w = [4.7  9.9  1.2]",
+            "w = [-0.4  -0.8  5.1]",
+            "w = [-2.1  -4.3  6.4]",
+            "w = [1.3  2.8  3.8]"
+        ],
+        answer: "w = [-2.1  -4.3  6.4]"
+    },
+    {
+        id: 330,
+        chapter: 10,
+        question: "Câu 18. Việc chọn giá trị K trong kNN ảnh hưởng thế nào?",
+        options: [
+            "K nhỏ không ảnh hưởng.",
+            "K lớn tăng độ nhạy với nhiễu.",
+            "K nhỏ giảm khả năng với nhiễu nhưng gây underfitting.",
+            "K lớn làm giảm độ nhạy với nhiễu (mịn hơn) nhưng có thể gây underfitting."
+        ],
+        answer: "K lớn làm giảm độ nhạy với nhiễu (mịn hơn) nhưng có thể gây underfitting."
+    },
+    {
+        id: 331,
+        chapter: 10,
+        question: "Câu 19. Nếu K rất nhỏ (ví dụ K=1) trong kNN, điều gì dễ xảy ra nhất?",
+        options: [
+            "Mô hình bị quá khớp (overfitting) với nhiễu.",
+            "Hiệu suất luôn cải thiện.",
+            "Thời gian tính toán giảm.",
+            "Biên phân loại rất mịn."
+        ],
+        answer: "Mô hình bị quá khớp (overfitting) với nhiễu."
+    },
+    {
+        id: 332,
+        chapter: 10,
+        question: "Câu 20. Nếu tăng tham số C trong SVM lề mềm, điều gì xảy ra?",
+        options: [
+            "Không ảnh hưởng.",
+            "Mô hình đơn giản hơn, underfitting.",
+            "Lề luôn được tối đa hóa.",
+            "Mô hình phức tạp hơn, dễ bị overfitting."
+        ],
+        answer: "Mô hình phức tạp hơn, dễ bị overfitting."
+    },
+	// --- BẮT ĐẦU ĐỀ 16 (TRUNG) - MÃ CHAPTER 11 ---
+    {
+        id: 333,
+        chapter: 11,
+        question: "Câu 1. Ví dụ nào sau đây là một bài toán phân lớp điển hình?",
+        options: [
+            "Tìm các nhóm khách hàng có hành vi mua sắm tương tự.",
+            "Phân loại email vào hộp thư đến hoặc thư rác.",
+            "Dự đoán giá nhà dựa trên diện tích và số phòng.",
+            "Dự báo lượng mưa trong ngày mai."
+        ],
+        answer: "Phân loại email vào hộp thư đến hoặc thư rác."
+    },
+    {
+        id: 334,
+        chapter: 11,
+        question: "Câu 2. Lý do nào khiến việc mong đợi một hệ thống học máy đạt độ chính xác 100% là không thực tế?",
+        options: [
+            "(iii) Dữ liệu không đầy đủ.",
+            "(ii) Dữ liệu bị nhiễu.",
+            "(i) Dữ liệu huấn luyện không đủ.",
+            "Tất cả các lý do trên."
+        ],
+        answer: "Tất cả các lý do trên."
+    },
+    {
+        id: 335,
+        chapter: 11,
+        question: "Câu 3. Trong đánh giá mô hình hồi quy, độ đo nào sau đây có giá trị càng lớn thì hiệu suất càng tốt?",
+        options: [
+            "Sai số tuyệt đối trung bình (MAE).",
+            "Sai số căn bậc hai trung bình bình phương (RMSE).",
+            "Hệ số xác định R2 (R-squared).",
+            "Sai số trung bình bình phương (MSE)."
+        ],
+        answer: "Hệ số xác định R2 (R-squared)."
+    },
+    {
+        id: 336,
+        chapter: 11,
+        question: "Câu 4. Tại sao độ đo Accuracy KHÔNG nên dùng cho dữ liệu mất cân bằng?",
+        options: [
+            "Vì Accuracy quá phức tạp.",
+            "Vì mô hình có thể đạt Accuracy cao bằng cách luôn dự đoán lớp đa số.",
+            "Vì Accuracy chỉ áp dụng cho phân loại nhị phân.",
+            "Vì Accuracy chỉ tập trung vào lớp thiểu số."
+        ],
+        answer: "Vì mô hình có thể đạt Accuracy cao bằng cách luôn dự đoán lớp đa số."
+    },
+    {
+        id: 337,
+        chapter: 11,
+        question: "Câu 5. Khi thuật toán SGD đi qua vùng bằng phẳng (đạo hàm gần bằng 0), hiện tượng gì xảy ra?",
+        options: [
+            "Tốc độ tối ưu nhanh do đạo hàm gần bằng 0.",
+            "Không thể hội tụ do mắc kẹt.",
+            "Tốc độ tối ưu chậm do đạo hàm gần bằng 0.",
+            "Tốc độ tối ưu nhanh do đạo hàm bùng nổ."
+        ],
+        answer: "Tốc độ tối ưu chậm do đạo hàm gần bằng 0."
+    },
+    {
+        id: 338,
+        chapter: 11,
+        question: "Câu 6. Trong hồi quy logistic, giá trị ngưỡng (threshold) được sử dụng để làm gì?",
+        options: [
+            "Giảm kích thước dữ liệu.",
+            "Tính toán độ chính xác.",
+            "Cân bằng dữ liệu.",
+            "Quyết định một mẫu thuộc về lớp nào dựa trên xác suất dự đoán."
+        ],
+        answer: "Quyết định một mẫu thuộc về lớp nào dựa trên xác suất dự đoán."
+    },
+    {
+        id: 339,
+        chapter: 11,
+        question: "Câu 7. Laplace smoothing trong Naive Bayes dùng để giải quyết vấn đề gì?",
+        options: [
+            "Tăng tốc độ tính toán.",
+            "Xử lý dữ liệu mất cân bằng.",
+            "Cải thiện độ chính xác với dữ liệu nhiễu.",
+            "Ngăn chặn việc xảy ra xác suất bằng 0 khi tính toán độ hợp lý."
+        ],
+        answer: "Ngăn chặn việc xảy ra xác suất bằng 0 khi tính toán độ hợp lý."
+    },
+    {
+        id: 340,
+        chapter: 11,
+        question: "Câu 8. Độ đo nào thường được sử dụng để tính khoảng cách trong KNN?",
+        options: [
+            "Entropy",
+            "Gini index",
+            "Khoảng cách Euclidean",
+            "Độ lệch chuẩn"
+        ],
+        answer: "Khoảng cách Euclidean"
+    },
+    {
+        id: 341,
+        chapter: 11,
+        question: "Câu 9. Trong cây quyết định, các nút (nội bộ) trong cây đại diện cho:",
+        options: [
+            "Đặc trưng (thuộc tính) của dữ liệu",
+            "Dự đoán cuối cùng",
+            "Nhãn các lớp",
+            "Điểm dữ liệu"
+        ],
+        answer: "Đặc trưng (thuộc tính) của dữ liệu"
+    },
+    {
+        id: 342,
+        chapter: 11,
+        question: "Câu 10. Chức năng của lan truyền ngược (backpropagation) là gì?",
+        options: [
+            "Tính toán đạo hàm của hàm mất mát bằng cách lan truyền lỗi ngược từ đầu ra về đầu vào.",
+            "Tăng tốc độ huấn luyện bằng cách giảm lớp ẩn.",
+            "Chuyển đổi trọng số ngẫu nhiên thành cố định.",
+            "Lưu trữ các trọng số."
+        ],
+        answer: "Tính toán đạo hàm của hàm mất mát bằng cách lan truyền lỗi ngược từ đầu ra về đầu vào."
+    },
+    {
+        id: 343,
+        chapter: 11,
+        question: "Câu 11. Các hàm nhân (kernel) được sử dụng trong SVM để làm gì?",
+        options: [
+            "Cải thiện khả năng diễn giải.",
+            "Giảm chi phí tính toán.",
+            "Đạt được khả năng phân tách phi tuyến bằng cách chiếu dữ liệu lên không gian chiều cao hơn.",
+            "Tự động lựa chọn tính năng."
+        ],
+        answer: "Đạt được khả năng phân tách phi tuyến bằng cách chiếu dữ liệu lên không gian chiều cao hơn."
+    },
+    {
+        id: 344,
+        chapter: 11,
+        question: "Câu 12. Tính Gradient Descent hồi quy tuyến tính: θ_init=[3.62, -4.16, 1.06], x=[1, 1.78, 0.04], y=5.05, η=0.05. Tìm θ mới?",
+        options: [
+            "θ = [3.18  −4.94  1.04]",
+            "θ = [4.5  −2.59  1.1]",
+            "θ = [−8.79  −15.65  −0.35]",
+            "θ = [4.06  −3.38  1.08]"
+        ],
+        answer: "θ = [4.06  −3.38  1.08]"
+    },
+    {
+        id: 345,
+        chapter: 11,
+        question: "Câu 13. Tính xác suất Naive Bayes P(x|Yes) với x=(Female, Senior, Low) (dùng Laplace smoothing). Dữ liệu 4 Yes, 3 No. Female|Yes (2/4), Senior|Yes (2/4), Low|Yes (0/4).",
+        options: [
+            "0.036",
+            "0.020",
+            "0.015",
+            "0.037"
+        ],
+        answer: "0.036"
+    },
+    {
+        id: 346,
+        chapter: 11,
+        question: "Câu 14. KNN (K=3, Euclidean). Điểm x=(1,1). Dữ liệu: (2,3,A), (4,2,C), (1,9,B), (7,5,C), (4,9,C). Nhãn dự đoán?",
+        options: [
+            "C",
+            "Một trong các nhãn sau: A",
+            "Một trong các nhãn sau: A, B, C",
+            "Một trong các nhãn sau: B, C"
+        ],
+        answer: "C"
+    },
+    {
+        id: 347,
+        chapter: 11,
+        question: "Câu 15. Tính Information Gain của thuộc tính Gender. Entropy gốc ~0.985. Male (2Y, 1N), Female (2Y, 2N).",
+        options: [
+            "1.92",
+            "0.96",
+            "0.93",
+            "0.02"
+        ],
+        answer: "0.02"
+    },
+    {
+        id: 348,
+        chapter: 11,
+        question: "Câu 16. Hard margin SVM. Vectors: [-5, 1], [-8, 8], [4, -2]. Lambda: [0.17, 0.09, 0.07]. Tìm w, b?",
+        options: [
+            "w = [−1.29  0.75],  b = −0.61",
+            "w = [−0.41  −0.41],  b = −0.61",
+            "w = [−1.29  0.75],  b = −1.15",
+            "w = [−0.41  −0.41],  b = −1.15"
+        ],
+        answer: "w = [−0.41  −0.41],  b = −0.61"
+    },
+    {
+        id: 349,
+        chapter: 11,
+        question: "Câu 17. Cập nhật Perceptron. w=[-2.9, 7.9, -3.2], b=5.8. x=[6.7, -6.4, 6.2], y=1. Trọng số mới?",
+        options: [
+            "w = [-2.9  7.9  -3.2]",
+            "w = [0.5  4.7  -0.1]",
+            "w = [3.8  1.5  3.0]",
+            "w = [-9.6  14.3  -9.4]"
+        ],
+        answer: "w = [3.8  1.5  3.0]"
+    },
+    {
+        id: 350,
+        chapter: 11,
+        question: "Câu 18. SVM thường ít nhạy cảm hơn với:",
+        options: [
+            "Không khớp (underfitting)",
+            "Sự hiện diện của các đặc trưng không liên quan",
+            "Dữ liệu có nhiều chiều",
+            "Quá khớp (overfitting)"
+        ],
+        answer: "Quá khớp (overfitting)"
+    },
+    {
+        id: 351,
+        chapter: 11,
+        question: "Câu 19. Trong học tăng cường, khi nào cần sử dụng q-value?",
+        options: [
+            "Khi không có dữ liệu về trạng thái và hành động.",
+            "Khi cần phân loại các trạng thái.",
+            "Khi muốn đánh giá sự kết hợp giữa trạng thái và hành động (state-action pair).",
+            "Khi chỉ cần đánh giá giá trị của từng trạng thái."
+        ],
+        answer: "Khi muốn đánh giá sự kết hợp giữa trạng thái và hành động (state-action pair)."
+    },
+    {
+        id: 352,
+        chapter: 11,
+        question: "Câu 20. Để khắc phục nhược điểm về việc xác định trước số cụm trong K-means, ta có thể sử dụng:",
+        options: [
+            "Phương pháp “khuỷu tay” (Elbow method)",
+            "Độ đo đánh giá: Silhouette",
+            "Không có cách nào",
+            "Cả A và B"
+        ],
+        answer: "Cả A và B"
+    },
+	// --- BẮT ĐẦU ĐỀ 17 (DUY) - MÃ CHAPTER 12 ---
+    {
+        id: 353,
+        chapter: 12,
+        question: "Câu 1. Quy trình xây dựng hệ thống dự báo khách hàng rời bỏ:\n(i) Huấn luyện mô hình.\n(ii) Chuẩn bị và làm sạch dữ liệu.\n(iii) Sử dụng mô hình dự đoán.",
+        options: [
+            "(i) (iii) (ii)",
+            "(iii) (ii) (i)",
+            "(ii) (iii) (i)",
+            "(ii) (i) (iii)"
+        ],
+        answer: "(ii) (i) (iii)"
+    },
+    {
+        id: 354,
+        chapter: 12,
+        question: "Câu 2. Mục tiêu chính của bài toán phân lớp là:",
+        options: [
+            "Phân tích thành phần chính của dữ liệu.",
+            "Gán một nhãn lớp cho một mẫu dữ liệu mới.",
+            "Tìm mối quan hệ giữa các biến số.",
+            "Dự đoán một giá trị số liên tục."
+        ],
+        answer: "Gán một nhãn lớp cho một mẫu dữ liệu mới."
+    },
+    {
+        id: 355,
+        chapter: 12,
+        question: "Câu 3. Phương pháp đánh giá chéo nào liên quan đến việc ngẫu nhiên chia tập dữ liệu thành tập huấn luyện và tập kiểm nghiệm, thực hiện nhiều lần?",
+        options: [
+            "Lấy mẫu Bootstrap (Bootstrap sampling)",
+            "Đánh giá chéo một dữ liệu (leave-one-out)",
+            "Đánh giá chéo k-fold (k-fold cross-validation)",
+            "Lấy mẫu con ngẫu nhiên (random subsampling)"
+        ],
+        answer: "Lấy mẫu con ngẫu nhiên (random subsampling)"
+    },
+    {
+        id: 356,
+        chapter: 12,
+        question: "Câu 4. Phương pháp đánh giá chéo nào chia tập dữ liệu thành k tập con bằng nhau, lần lượt dùng 1 tập làm kiểm nghiệm?",
+        options: [
+            "Lấy mẫu Bootstrap",
+            "Đánh giá chéo một dữ liệu (leave-one-out)",
+            "Lấy mẫu con ngẫu nhiên",
+            "Đánh giá chéo k-fold (k-fold cross-validation)"
+        ],
+        answer: "Đánh giá chéo k-fold (k-fold cross-validation)"
+    },
+    {
+        id: 357,
+        chapter: 12,
+        question: "Câu 5. Thuật toán giảm dốc theo lô nhỏ (mini-batch) giúp:\n(i) Tăng tốc độ hội tụ.\n(ii) Giảm khả năng mắc kẹt ở cực trị cục bộ.",
+        options: [
+            "Cả (i) và (ii) đều đúng",
+            "(ii) đúng",
+            "(i) đúng",
+            "Cả (i) và (ii) đều sai"
+        ],
+        answer: "Cả (i) và (ii) đều đúng"
+    },
+    {
+        id: 358,
+        chapter: 12,
+        question: "Câu 6. Sự khác biệt cơ bản giữa hồi quy tuyến tính và hồi quy logistic là:",
+        options: [
+            "Hồi quy tuyến tính dùng để dự đoán giá trị liên tục, còn hồi quy logistic dự đoán xác suất thuộc về một lớp nhất định.",
+            "Chỉ khác nhau về cách gọi.",
+            "Hồi quy logistic phức tạp hơn hồi quy tuyến tính.",
+            "Hồi quy tuyến tính dùng để phân loại, còn hồi quy logistic dùng để dự đoán."
+        ],
+        answer: "Hồi quy tuyến tính dùng để dự đoán giá trị liên tục, còn hồi quy logistic dự đoán xác suất thuộc về một lớp nhất định."
+    },
+    {
+        id: 359,
+        chapter: 12,
+        question: "Câu 7. Giai đoạn huấn luyện của thuật toán Naive Bayes thực hiện việc gì?",
+        options: [
+            "Điều chỉnh trọng số của các tính năng.",
+            "Thực hiện giảm kích thước.",
+            "Ước tính xác suất tiên nghiệm (prior) và độ hợp lý (likelihood) dựa trên tập huấn luyện.",
+            "Học phân phối xác suất chung."
+        ],
+        answer: "Ước tính xác suất tiên nghiệm (prior) và độ hợp lý (likelihood) dựa trên tập huấn luyện."
+    },
+    {
+        id: 360,
+        chapter: 12,
+        question: "Câu 8. Trường hợp nào KHÔNG PHẢI là hạn chế của thuật toán kNN?",
+        options: [
+            "Khó xác định giá trị k tối ưu.",
+            "Cần lưu trữ toàn bộ tập dữ liệu huấn luyện.",
+            "Có thể xử lý hiệu quả các dữ liệu có nhiều đặc trưng (nhiều chiều).",
+            "Độ phức tạp tính toán cao khi tập dữ liệu lớn."
+        ],
+        answer: "Có thể xử lý hiệu quả các dữ liệu có nhiều đặc trưng (nhiều chiều)."
+    },
+    {
+        id: 361,
+        chapter: 12,
+        question: "Câu 9. Các nút lá trong cây quyết định đại diện cho:",
+        options: [
+            "Các điểm quyết định.",
+            "Các tính toán trung gian.",
+            "Các đặc trưng đầu vào.",
+            "Lớp hoặc giá trị được dự đoán cuối cùng."
+        ],
+        answer: "Lớp hoặc giá trị được dự đoán cuối cùng."
+    },
+    {
+        id: 362,
+        chapter: 12,
+        question: "Câu 10. Đầu ra của hàm kích hoạt sigmoid nằm trong khoảng nào?",
+        options: [
+            "[-1, 1]",
+            "[0, ∞]",
+            "[0, 1]",
+            "[0,5 ; 1]"
+        ],
+        answer: "[0, 1]"
+    },
+    {
+        id: 363,
+        chapter: 12,
+        question: "Câu 11. Điểm khác biệt chính giữa SVM lề cứng (hard-margin) và SVM lề mềm (soft-margin) là gì?",
+        options: [
+            "Hard-margin áp dụng cho dữ liệu không tách biệt tuyến tính.",
+            "Hard-margin dùng kernel phi tuyến.",
+            "Hard-margin không cho phép điểm nào vi phạm lề, Soft-margin cho phép một số điểm vi phạm để tối ưu hóa.",
+            "Hard-margin cho phép vi phạm lề."
+        ],
+        answer: "Hard-margin không cho phép bất kỳ điểm dữ liệu nào nằm trong khoảng cách lề, trong khi soft-margin cho phép 1 số điểm vi phạm lề để tối ưu hóa phân loại"
+    },
+    {
+        id: 364,
+        chapter: 12,
+        question: "Câu 12. Tính cập nhật Gradient Descent (Hồi quy tuyến tính):\nTheta_init = [-2.85, 0.72, -4.25]\nx = [1, 0.09, 0.02], y = -3.96, eta = 0.05. Tìm theta mới?",
+        options: [
+            "θ= [1.09   0.1   0.02]",
+            "θ= [-2.9   0.72  -4.25]",
+            "θ= [-2.8   0.72  -4.25]",
+            "θ= [-2.96   0.71  -4.25]"
+        ],
+        answer: "θ= [-2.96   0.71  -4.25]"
+    },
+    {
+        id: 365,
+        chapter: 12,
+        question: "Câu 14. KNN (K=3, Manhattan). Điểm x=(3,8). Dữ liệu: (1,9,C), (8,6,A), (2,1,C), (9,5,A), (8,2,B). Nhãn dự đoán?",
+        options: [
+            "1 trong các nhãn sau: A, C",
+            "1 trong các nhãn sau: B",
+            "C",
+            "A"
+        ],
+        answer: "C"
+    },
+    {
+        id: 366,
+        chapter: 12,
+        question: "Câu 15. Tính lợi thông tin (Information Gain) của thuộc tính “Income level” (High, Low, Medium) để phân chia dữ liệu. (Dữ liệu cho trong đề)",
+        options: [
+            "0.92",
+            "0.59",
+            "0.39",
+            "0.07"
+        ],
+        answer: "0.59"
+    },
+    {
+        id: 367,
+        chapter: 12,
+        question: "Câu 17. Mạng nơ-ron: 10 input -> 6 ẩn -> 5 ẩn -> 3 output. Số lượng trọng số (bao gồm bias)?",
+        options: [
+            "119",
+            "105",
+            "101",
+            "126"
+        ],
+        answer: "119"
+    },
+    {
+        id: 368,
+        chapter: 12,
+        question: "Câu 18. SVM thường ít nhạy cảm hơn với:",
+        options: [
+            "Không khớp (underfitting)",
+            "Dữ liệu có nhiều chiều",
+            "Quá khớp (overfitting)",
+            "Sự hiện diện của các đặc trưng không liên quan"
+        ],
+        answer: "Dữ liệu có nhiều chiều"
+    },
+    {
+        id: 369,
+        chapter: 12,
+        question: "Câu 19. Trong phân loại đa lớp dùng Hồi quy Logistic, phương pháp “One-vs-Rest” hoạt động thế nào và thách thức là gì?",
+        options: [
+            "Dùng cây quyết định phân chia.",
+            "Huấn luyện K bộ phân loại nhị phân độc lập; thách thức là mất cân bằng lớp.",
+            "Kết hợp các bộ phân loại Hồi quy Tuyến tính.",
+            "Huấn luyện một bộ phân loại duy nhất với Softmax."
+        ],
+        answer: "Huấn luyện K bộ phân loại nhị phân độc lập (với K là số lớp), mỗi bộ phận loại phân biệt một lớp với tất cả các lớp còn lại; thách thức là sự mất cân bằng lớp trầm trọng trong từng bộ phận loại con."
+    },
+    {
+        id: 370,
+        chapter: 12,
+        question: "Câu 20. Tại sao việc cắt tỉa cây (pruning) giúp giảm overfitting?",
+        options: [
+            "Vì nó giảm độ phức tạp của mô hình.",
+            "Vì nó giảm lỗi trên tập huấn luyện.",
+            "Vì nó loại bỏ các nhánh không có dữ liệu đủ lớn.",
+            "Vì nó tối ưu hóa thời gian huấn luyện."
+        ],
+        answer: "Vì nó giảm độ phức tạp của mô hình."
+    },
+	// --- BẮT ĐẦU ĐỀ 27 (CHUNG) - MÃ CHAPTER 13 ---
+    {
+        id: 371,
+        chapter: 13,
+        question: "Câu 1. Dữ liệu đóng vai trò quan trọng trong học máy (machine learning) vì:",
+        options: [
+            "Dữ liệu là một phần của phần cứng máy tính.",
+            "Dữ liệu cung cấp năng lượng cho máy tính.",
+            "Dữ liệu chỉ cần thiết cho các thuật toán phức tạp.",
+            "Dữ liệu được sử dụng để huấn luyện các mô hình học máy."
+        ],
+        answer: "Dữ liệu được sử dụng để huấn luyện các mô hình học máy."
+    },
+    {
+        id: 372,
+        chapter: 13,
+        question: "Câu 2. Học máy (machine learning) là lĩnh vực tập trung vào:",
+        options: [
+            "Thực hiện các phép tính số học phức tạp với tốc độ cao.",
+            "Mô phỏng quá trình suy nghĩ của con người.",
+            "Tự động học tri thức từ dữ liệu để thực hiện các tác vụ mà không cần lập trình tường minh.",
+            "Tương tác với con người một cách tự nhiên."
+        ],
+        answer: "Tự động học tri thức từ dữ liệu để thực hiện các tác vụ mà không cần lập trình tường minh."
+    },
+    {
+        id: 373,
+        chapter: 13,
+        question: "Câu 3. Phương pháp đánh giá chéo nào chia tập dữ liệu thành k tập con bằng nhau và luân phiên kiểm thử?",
+        options: [
+            "Lấy mẫu con ngẫu nhiên (random subsampling)",
+            "Lấy mẫu Bootstrap (bootstrap sampling)",
+            "Đánh giá chéo một dữ liệu (leave-one-out cross-validation)",
+            "Đánh giá chéo k-fold (k-fold cross-validation)"
+        ],
+        answer: "Đánh giá chéo k-fold (k-fold cross-validation)"
+    },
+    {
+        id: 374,
+        chapter: 13,
+        question: "Câu 4. Trong bài toán hồi quy, độ đo nào thường được sử dụng để đánh giá sai số?",
+        options: [
+            "Sai số bình phương trung bình (Mean Squared Error – MSE)",
+            "Entropy",
+            "Độ chính xác tổng thể (Accuracy)",
+            "Độ phủ (Recall)"
+        ],
+        answer: "Sai số bình phương trung bình (Mean Squared Error – MSE)"
+    },
+    {
+        id: 375,
+        chapter: 13,
+        question: "Câu 5. Phát biểu nào sau đây đúng với thuật toán tối ưu giảm dốc (gradient descent)?",
+        options: [
+            "Tìm kiếm theo hướng tăng của đạo hàm.",
+            "Tìm kiếm theo hướng đạo hàm.",
+            "Tìm kiếm ngược hướng đạo hàm (để tìm cực tiểu).",
+            "Tìm kiếm ngẫu nhiên."
+        ],
+        answer: "Tìm kiếm ngược hướng đạo hàm (để tìm cực tiểu)."
+    },
+    {
+        id: 376,
+        chapter: 13,
+        question: "Câu 6. Mối quan hệ giữa hồi quy logistic và hồi quy tuyến tính là gì?",
+        options: [
+            "Cả hai đều dự đoán biến liên tục.",
+            "Hồi quy logistic là trường hợp đặc biệt của hồi quy tuyến tính với hàm kích hoạt sigmoid.",
+            "Hồi quy tuyến tính là trường hợp đặc biệt của hồi quy logistic.",
+            "Chúng hoàn toàn không liên quan."
+        ],
+        answer: "Hồi quy logistic là trường hợp đặc biệt của hồi quy tuyến tính với hàm kích hoạt sigmoid."
+    },
+    {
+        id: 377,
+        chapter: 13,
+        question: "Câu 7. Tại sao Laplace smoothing giúp cải thiện mô hình Naive Bayes?",
+        options: [
+            "Giảm thiểu ảnh hưởng của các sự kiện hiếm gặp (tránh xác suất bằng 0).",
+            "Tăng tốc độ tính toán.",
+            "Tăng cường các đặc trưng quan trọng.",
+            "Giảm thiểu độ lệch của mô hình."
+        ],
+        answer: "Giảm thiểu ảnh hưởng của các sự kiện hiếm gặp (tránh xác suất bằng 0)."
+    },
+    {
+        id: 378,
+        chapter: 13,
+        question: "Câu 8. Độ phức tạp tính toán của thuật toán kNN khi dự đoán (n mẫu, m đặc trưng)?",
+        options: [
+            "O(nm)",
+            "O(n)",
+            "O(n log n)",
+            "O(m)"
+        ],
+        answer: "O(nm)"
+    },
+    {
+        id: 379,
+        chapter: 13,
+        question: "Câu 9. Lý do CHÍNH cho việc cắt tỉa (pruning) trong cây quyết định là gì?",
+        options: [
+            "Tăng tốc quá trình huấn luyện.",
+            "Giảm khả năng diễn giải.",
+            "Tăng độ phức tạp.",
+            "Giảm hiện tượng quá khớp (overfitting)."
+        ],
+        answer: "Giảm hiện tượng quá khớp (overfitting)."
+    },
+    {
+        id: 380,
+        chapter: 13,
+        question: "Câu 10. Khi khởi tạo tất cả các trọng số trong mạng nơ-ron bằng 0, điều gì xảy ra?",
+        options: [
+            "Tất cả các nơ-ron trong cùng một lớp ẩn sẽ có cùng đầu ra (mất tính đối xứng).",
+            "Mạng nơ-ron sẽ hội tụ nhanh hơn.",
+            "Mạng nơ-ron dễ dàng thoát khỏi cực tiểu cục bộ.",
+            "Mạng nơ-ron học hiệu quả hơn."
+        ],
+        answer: "Tất cả các nơ-ron trong cùng một lớp ẩn sẽ có cùng đầu ra (mất tính đối xứng)."
+    },
+    {
+        id: 381,
+        chapter: 13,
+        question: "Câu 11. Mục tiêu của SVM trong quá trình huấn luyện là gì?",
+        options: [
+            "Tăng độ phức tạp biên quyết định.",
+            "Đạt độ chính xác cao nhất trên tập train.",
+            "Giảm thiểu khoảng cách margin.",
+            "Tối đa hóa khoảng cách (margin) giữa biên quyết định và các điểm gần nhất."
+        ],
+        answer: "Tối đa hóa khoảng cách (margin) giữa biên quyết định và các điểm gần nhất."
+    },
+    {
+        id: 382,
+        chapter: 13,
+        question: "Câu 12. Tính Gradient Descent: θ_init=[4.96, 3.1, 2.98], x=[1, 0.24, 1.88], y=2.62, η=0.03. Tìm θ mới?",
+        options: [
+            "θ = [4.7  3.04  2.49]",
+            "θ = [4.44  2.97  2.0]",
+            "θ = [5.22  3.16  3.47]",
+            "θ = [8.69  2.08  16.33]"
+        ],
+        answer: "θ = [4.7  3.04  2.49]"
+    },
+    {
+        id: 383,
+        chapter: 13,
+        question: "Câu 13. Tính xác suất Naive Bayes P(x|No) với x=(Male, Middle-aged, High) có Laplace smoothing. (Dữ liệu bảng)",
+        options: [
+            "0.021",
+            "0.094",
+            "0.016",
+            "0.037"
+        ],
+        answer: "0.037"
+    },
+    {
+        id: 384,
+        chapter: 13,
+        question: "Câu 14. KNN (K=3, Manhattan). Điểm x=(4,9). Dữ liệu: (7,9,B), (4,3,A), (2,2,C), (9,4,A), (9,1,B). Nhãn dự đoán?",
+        options: [
+            "A",
+            "Một trong các nhãn sau: A, B, C",
+            "Một trong các nhãn sau: B, C",
+            "Một trong các nhãn sau: A, B"
+        ],
+        answer: "Một trong các nhãn sau: A, B, C"
+    },
+    {
+        id: 385,
+        chapter: 13,
+        question: "Câu 15. Tính Information Gain của thuộc tính “Experience”. (Dữ liệu bảng)",
+        options: [
+            "0.01",
+            "0.70",
+            "0.29",
+            "1.00"
+        ],
+        answer: "0.70"
+    },
+    {
+        id: 386,
+        chapter: 13,
+        question: "Câu 16. Hard margin SVM. Vectors: [-5, -6], [-8, -7], [-6, -3]. Lambda: [0.4, 0.2, 0.2]. Tìm w, b?",
+        options: [
+            "w = [-4.8  -4.4], b = -2.2",
+            "w = [-4.8  -4.4], b = 2.6",
+            "w = [0.8  -0.4], b = -2.2",
+            "w = [0.8  -0.4], b = 2.6"
+        ],
+        answer: "w = [0.8  -0.4], b = 2.6"
+    },
+    {
+        id: 387,
+        chapter: 13,
+        question: "Câu 17. Cập nhật Perceptron. w=[-7.9, -7.8, -7.2], b=-5.4. x=[-2.0, 6.2, -0.5], y=1. Trọng số mới?",
+        options: [
+            "w = [-5.9  -14.0  -6.7]",
+            "w = [-8.9  -4.7  -7.4]",
+            "w = [-7.9  -7.8  -7.2]",
+            "w = [-9.9  -1.6  -7.7]"
+        ],
+        answer: "w = [-9.9  -1.6  -7.7]"
+    },
+    {
+        id: 388,
+        chapter: 13,
+        question: "Câu 18. Mặc dù Hồi quy Logistic là thuật toán phân loại, điều gì làm nó phù hợp cho phân loại nhị phân hơn Hồi quy tuyến tính?",
+        options: [
+            "Tự động xử lý đặc trưng phi tuyến.",
+            "Tối ưu hóa độ chính xác thay vì lỗi bình phương.",
+            "Sử dụng hàm sigmoid để ánh xạ đầu ra vào khoảng [0,1] (xác suất).",
+            "Không yêu cầu phân phối chuẩn."
+        ],
+        answer: "Sử dụng hàm sigmoid để ánh xạ đầu ra vào khoảng [0,1] (xác suất)."
+    },
+    {
+        id: 389,
+        chapter: 13,
+        question: "Câu 19. Đạo hàm suy biến (vanishing gradient) ảnh hưởng thế nào đến mạng nơ-ron?",
+        options: [
+            "Không ảnh hưởng.",
+            "Gây ra hiện tượng nổ gradient.",
+            "Chỉ xảy ra ở mạng nhân tạo.",
+            "Đạo hàm trở nên quá nhỏ khi truyền ngược, làm chậm hoặc ngừng quá trình học."
+        ],
+        answer: "Đạo hàm trở nên quá nhỏ khi truyền ngược, làm chậm hoặc ngừng quá trình học."
+    },
+    {
+        id: 390,
+        chapter: 13,
+        question: "Câu 20. Thuộc tính nào KHÔNG phù hợp để dùng K-means (dựa trên khoảng cách)? Dữ liệu: Tuổi, Giới tính, Bệnh nền.",
+        options: [
+            "Giới tính",
+            "Cả Giới tính và Bệnh nền",
+            "Bệnh nền",
+            "Tuổi"
+        ],
+        answer: "Cả Giới tính và Bệnh nền"
+    },
+	// --- BẮT ĐẦU ĐỀ 28 (MINH) - MÃ CHAPTER 14 ---
+    {
+        id: 391,
+        chapter: 14,
+        question: "Câu 1. Các bước nào sau đây không thuộc giai đoạn chuẩn bị dữ liệu khi xây dựng ứng dụng học máy?",
+        options: [
+            "Phân tích khám phá dữ liệu (EDA).",
+            "Chuẩn hóa dữ liệu (data normalization).",
+            "Làm sạch dữ liệu (data cleaning).",
+            "Đánh giá hiệu suất của mô hình."
+        ],
+        answer: "Đánh giá hiệu suất của mô hình."
+    },
+    {
+        id: 392,
+        chapter: 14,
+        question: "Câu 2. Quy trình xây dựng hệ thống nhận diện khuôn mặt:\n(i) Sử dụng mô hình dự đoán.\n(ii) Chuẩn bị và làm sạch dữ liệu.\n(iii) Huấn luyện mô hình.",
+        options: [
+            "(ii) → (i) → (iii)",
+            "(i) → (ii) → (iii)",
+            "(ii) → (iii) → (i)",
+            "(i) → (iii) → (ii)"
+        ],
+        answer: "(ii) → (iii) → (i)"
+    },
+    {
+        id: 393,
+        chapter: 14,
+        question: "Câu 3. Phương pháp đánh giá chéo nào sử dụng một điểm dữ liệu làm tập kiểm nghiệm, phần còn lại làm tập huấn luyện?",
+        options: [
+            "Đánh giá chéo k-fold",
+            "Lấy mẫu Bootstrap",
+            "Đánh giá chéo một dữ liệu (leave-one-out)",
+            "Lấy mẫu con ngẫu nhiên"
+        ],
+        answer: "Đánh giá chéo một dữ liệu (leave-one-out)"
+    },
+    {
+        id: 394,
+        chapter: 14,
+        question: "Câu 4. Phương pháp đánh giá chéo nào chia ngẫu nhiên dữ liệu thành train/test và thực hiện nhiều lần?",
+        options: [
+            "Đánh giá chéo k-fold",
+            "Lấy mẫu Bootstrap",
+            "Lấy mẫu con ngẫu nhiên (random subsampling)",
+            "Đánh giá chéo một dữ liệu"
+        ],
+        answer: "Lấy mẫu con ngẫu nhiên (random subsampling)"
+    },
+    {
+        id: 395,
+        chapter: 14,
+        question: "Câu 5. Thuật toán giảm dốc theo lô nhỏ (mini-batch) giúp:\n(i) Tăng tốc độ hội tụ.\n(ii) Giảm khả năng mắc kẹt ở cực tiểu cục bộ.",
+        options: [
+            "Cả (i) và (ii) đều đúng.",
+            "Cả (i) và (ii) đều sai.",
+            "(i) đúng.",
+            "(ii) đúng."
+        ],
+        answer: "Cả (i) và (ii) đều đúng."
+    },
+    {
+        id: 396,
+        chapter: 14,
+        question: "Câu 6. Mục tiêu chính của hồi quy tuyến tính là gì?",
+        options: [
+            "Để mô hình hóa mối quan hệ giữa một biến phụ thuộc và một hoặc nhiều biến độc lập.",
+            "Để phân loại dữ liệu.",
+            "Để giảm chiều dữ liệu.",
+            "Để nhóm các điểm dữ liệu."
+        ],
+        answer: "Để mô hình hóa mối quan hệ giữa một biến phụ thuộc và một hoặc nhiều biến độc lập."
+    },
+    {
+        id: 397,
+        chapter: 14,
+        question: "Câu 7. Trong huấn luyện Naive Bayes, cần tính toán:\n(i) Xác suất mẫu dữ liệu.\n(ii) Xác suất tiên nghiệm.\n(iii) Xác suất có điều kiện.",
+        options: [
+            "(i) và (ii)",
+            "(ii) và (iii)",
+            "(i) và (iii)",
+            "Cả ba xác suất trên"
+        ],
+        answer: "(ii) và (iii)"
+    },
+    {
+        id: 398,
+        chapter: 14,
+        question: "Câu 8. Thứ tự đúng các bước trong thuật toán KNN:",
+        options: [
+            "Xác định nhãn k điểm gần nhất → Gán nhãn → Tính khoảng cách",
+            "Gán nhãn → Tính khoảng cách → Xác định k điểm gần nhất",
+            "Xác định k điểm gần nhất → Tính khoảng cách → Gán nhãn",
+            "Tính khoảng cách → Xác định k điểm gần nhất → Gán nhãn"
+        ],
+        answer: "Tính khoảng cách → Xác định k điểm gần nhất → Gán nhãn"
+    },
+    {
+        id: 399,
+        chapter: 14,
+        question: "Câu 9. Pruning trong cây quyết định có ý nghĩa gì?",
+        options: [
+            "Tăng số lượng nhánh.",
+            "Cắt tỉa các nhánh thừa để giảm độ phức tạp và tránh overfitting.",
+            "Thêm thuộc tính mới.",
+            "Thay đổi thứ tự thuộc tính."
+        ],
+        answer: "Cắt tỉa các nhánh thừa để giảm độ phức tạp và tránh overfitting."
+    },
+    {
+        id: 400,
+        chapter: 14,
+        question: "Câu 10. Thuật toán Perceptron phân loại chính xác trong trường hợp nào?",
+        options: [
+            "Dữ liệu có thể phân tách tuyến tính",
+            "Dữ liệu không thể phân tách tuyến tính",
+            "Bất kỳ loại dữ liệu nào",
+            "Dữ liệu có nhiều nhãn"
+        ],
+        answer: "Dữ liệu có thể phân tách tuyến tính"
+    },
+    {
+        id: 401,
+        chapter: 14,
+        question: "Câu 11. Mục tiêu của SVM trong huấn luyện mô hình phân lớp là gì?",
+        options: [
+            "Đạt độ chính xác cao nhất trên tập huấn luyện",
+            "Tăng độ phức tạp của biên quyết định",
+            "Giảm khoảng cách (margin) giữa các lớp",
+            "Tối đa hóa khoảng cách (margin) giữa siêu phẳng phân tách và các điểm gần nhất"
+        ],
+        answer: "Tối đa hóa khoảng cách (margin) giữa siêu phẳng phân tách và các điểm gần nhất"
+    },
+    {
+        id: 402,
+        chapter: 14,
+        question: "Câu 12. Tính Gradient Descent hồi quy tuyến tính: θ_init=[-2.75, 3.13, 4.16], x=[1, 0.16, 0.28], y=-0.68, η=0.03. Tìm θ mới?",
+        options: [
+            "θ = [-2.73   3.13   4.17]",
+            "θ = [-2.76   3.13   4.16]",
+            "θ = [-2.74   3.13   4.16]",
+            "θ = [-0.4   -0.06   -0.11]"
+        ],
+        answer: "θ = [-2.74   3.13   4.16]"
+    },
+    {
+        id: 403,
+        chapter: 14,
+        question: "Câu 13. Tính xác suất Naive Bayes P(x|No) với x=(Male, Middle-aged, High). (Dữ liệu bảng)",
+        options: [
+            "0.013",
+            "0.018",
+            "0.074",
+            "0.031"
+        ],
+        answer: "0.031"
+    },
+    {
+        id: 404,
+        chapter: 14,
+        question: "Câu 14. KNN (K=3, Manhattan). Điểm x=(3,8). Dữ liệu: (1,9,C), (8,6,A), (2,1,C), (9,5,A), (8,2,B). Nhãn dự đoán?",
+        options: [
+            "C",
+            "Một trong các nhãn sau: B",
+            "Một trong các nhãn sau: A hoặc C",
+            "A"
+        ],
+        answer: "C"
+    },
+    {
+        id: 405,
+        chapter: 14,
+        question: "Câu 15. Tính Information Gain của thuộc tính “Emojis” (Smile :), Frown :(). Smile(4+,1-), Frown(0+,2-). Entropy gốc ~0.985.",
+        options: [
+            "0.26",
+            "0.52",
+            "0.47",
+            "0.72"
+        ],
+        answer: "0.47"
+    },
+    {
+        id: 406,
+        chapter: 14,
+        question: "Câu 16. Hard margin SVM. Vectors: [-2, 5], [3, -2], [-9, 7]. Lambda: [0.3, 0.13, 0.16]. Tìm w, b?",
+        options: [
+            "w = [-1.65  2.36], b = -1.27",
+            "w = [-1.65  2.36], b = -0.93",
+            "w = [0.45  0.64], b = -0.93",
+            "w = [0.45  0.64], b = -1.27"
+        ],
+        answer: "w = [0.45  0.64], b = -1.27"
+    },
+    {
+        id: 407,
+        chapter: 14,
+        question: "Câu 17. Cập nhật Perceptron. w=[-1.0, -4.6, -5.9], b=7.8. x=[-2.7, -2.6, -3.8], y=-1. Trọng số mới?",
+        options: [
+            "[-3.7  -7.2  -9.7]",
+            "[1.7   -2.0   -2.1]",
+            "[-1.0  -4.6  -5.9]",
+            "[0.4  -3.3   -4.0]"
+        ],
+        answer: "[1.7   -2.0   -2.1]"
+    },
+    {
+        id: 408,
+        chapter: 14,
+        question: "Câu 18. Trạng thái trong học tăng cường có ảnh hưởng gì đến hành động của tác nhân?",
+        options: [
+            "Trạng thái giúp Xác định mục tiêu.",
+            "Trạng thái Không ảnh hưởng đến hành động.",
+            "Trạng thái Quyết định hành động tiếp theo của tác nhân sẽ thực hiện.",
+            "Trạng thái Chỉ được dùng để đánh giá kết quả."
+        ],
+        answer: "Trạng thái Quyết định hành động tiếp theo của tác nhân sẽ thực hiện."
+    },
+    {
+        id: 409,
+        chapter: 14,
+        question: "Câu 19. Hồi quy Logistic phù hợp hơn Hồi quy Tuyến tính cho phân loại nhị phân vì:",
+        options: [
+            "Sử dụng hàm sigmoid để ánh xạ đầu ra tuyến tính vào phạm vi [0,1], biểu thị xác suất.",
+            "Tối ưu hóa trực tiếp độ chính xác.",
+            "Không yêu cầu phân phối chuẩn.",
+            "Tự động xử lý đặc trưng không tuyến tính."
+        ],
+        answer: "Sử dụng hàm sigmoid để ánh xạ đầu ra tuyến tính vào phạm vi [0,1], biểu thị xác suất."
+    },
+    {
+        id: 410,
+        chapter: 14,
+        question: "Câu 20. Kỹ thuật tối ưu chi phí tính toán khoảng cách trong kNN nào hiệu quả nhất với dữ liệu nhiều chiều?",
+        options: [
+            "KD-Tree",
+            "Ball-Tree",
+            "Approximate Nearest Neighbors",
+            "Brute Force"
+        ],
+        answer: "Approximate Nearest Neighbors"
+    },
+	// --- BẮT ĐẦU ĐỀ 30 (THÀNH) - MÃ CHAPTER 15 ---
+    {
+        id: 411,
+        chapter: 15,
+        question: "Câu 1. Quy trình xây dựng hệ thống phân loại sản phẩm lỗi:\n(i) Sử dụng mô hình.\n(ii) Huấn luyện mô hình.\n(iii) Chuẩn bị và làm sạch dữ liệu.",
+        options: [
+            "(iii) (ii) (i)",
+            "(i) (iii) (ii)",
+            "(ii) (i) (iii)",
+            "(ii) (iii) (i)"
+        ],
+        answer: "(iii) (ii) (i)"
+    },
+    {
+        id: 412,
+        chapter: 15,
+        question: "Câu 2. Phát biểu đúng về tập huấn luyện (hệ thống gợi ý vay tín dụng):\n(i) Gồm đầu vào và đầu ra mong muốn.\n(ii) Tập huấn luyện và kiểm nghiệm là một.\n(iii) Dùng cho học có giám sát.\n(iv) Chỉ chứa đầu vào.",
+        options: [
+            "Cả 4 phát biểu trên.",
+            "(i) và (iii)",
+            "(i), (ii) và (iii)",
+            "(ii), (iii) và (iv)"
+        ],
+        answer: "(i) và (iii)"
+    },
+    {
+        id: 413,
+        chapter: 15,
+        question: "Câu 3. Trong bài toán hồi quy, độ đo nào đánh giá mức độ phù hợp giữa giá trị dự đoán và thực tế?",
+        options: [
+            "Sai số bình phương trung bình (MSE)",
+            "Độ phủ (Recall)",
+            "Entropy",
+            "Độ chính xác tổng thể (Accuracy)"
+        ],
+        answer: "Sai số bình phương trung bình (MSE)"
+    },
+    {
+        id: 414,
+        chapter: 15,
+        question: "Câu 4. Trong ma trận nhầm lẫn, 'âm tính giả' (False Negative - FN) là gì?",
+        options: [
+            "Dự đoán dương tính trong khi thực tế âm tính.",
+            "Dự đoán âm tính trong khi thực tế dương tính.",
+            "Dự đoán dương tính và thực tế dương tính.",
+            "Dự đoán âm tính và thực tế âm tính."
+        ],
+        answer: "Dự đoán âm tính trong khi thực tế dương tính."
+    },
+    {
+        id: 415,
+        chapter: 15,
+        question: "Câu 5. Lợi ích của thuật toán giảm dốc theo lô nhỏ (mini-batch):\n(i) Tăng tốc độ hội tụ.\n(ii) Giảm khả năng mắc kẹt ở cực tiểu cục bộ.",
+        options: [
+            "(ii) đúng.",
+            "Cả (i) và (ii) đều sai.",
+            "Cả (i) và (ii) đều đúng.",
+            "(i) đúng."
+        ],
+        answer: "Cả (i) và (ii) đều đúng."
+    },
+    {
+        id: 416,
+        chapter: 15,
+        question: "Câu 6. Hồi quy logistic thường được sử dụng cho bài toán nào?",
+        options: [
+            "Dự đoán giá trị liên tục.",
+            "Giảm chiều dữ liệu.",
+            "Phân cụm dữ liệu.",
+            "Phân loại nhị phân hoặc đa lớp."
+        ],
+        answer: "Phân loại nhị phân hoặc đa lớp."
+    },
+    {
+        id: 417,
+        chapter: 15,
+        question: "Câu 7. Trong huấn luyện Naive Bayes, cần tính toán:\n(i) Xác suất mẫu.\n(ii) Xác suất tiên nghiệm.\n(iii) Xác suất có điều kiện.",
+        options: [
+            "Cả ba xác suất trên.",
+            "(i) và (iii)",
+            "(i) và (ii)",
+            "(ii) và (iii)"
+        ],
+        answer: "(ii) và (iii)"
+    },
+    {
+        id: 418,
+        chapter: 15,
+        question: "Câu 8. Giả định CHÍNH của thuật toán k-láng giềng gần nhất (kNN) là gì?",
+        options: [
+            "Các mẫu dữ liệu có tính chất tương đồng có khả năng cao mang nhãn giống nhau.",
+            "Các điểm dữ liệu có thể phân tách tuyến tính.",
+            "Các tính năng độc lập với nhau.",
+            "Các tính năng tuân theo phân phối Gaussian."
+        ],
+        answer: "Các mẫu dữ liệu có tính chất tương đồng có khả năng cao mang nhãn giống nhau."
+    },
+    {
+        id: 419,
+        chapter: 15,
+        question: "Câu 9. Mục tiêu chính của thuật toán cây quyết định là gì?",
+        options: [
+            "Tạo ra một mô hình phân loại hoặc hồi quy dưới dạng một cây.",
+            "Tối ưu hóa hàm mục tiêu.",
+            "Dự đoán xu hướng tương lai.",
+            "Xây dựng cấu trúc dữ liệu biểu diễn mối quan hệ biến."
+        ],
+        answer: "Tạo ra một mô hình phân loại hoặc hồi quy dưới dạng một cây."
+    },
+    {
+        id: 420,
+        chapter: 15,
+        question: "Câu 10. Chức năng của lan truyền ngược (backpropagation) là gì?",
+        options: [
+            "Chuyển đổi trọng số ngẫu nhiên.",
+            "Tăng tốc độ huấn luyện.",
+            "Tính toán đạo hàm hàm mất mát bằng cách lan truyền lỗi ngược từ đầu ra về đầu vào.",
+            "Lưu trữ trọng số."
+        ],
+        answer: "Tính toán đạo hàm hàm mất mát bằng cách lan truyền lỗi ngược từ đầu ra về đầu vào."
+    },
+    {
+        id: 421,
+        chapter: 15,
+        question: "Câu 11. 'Support vectors' trong SVM là gì và tại sao quan trọng?",
+        options: [
+            "Điểm nằm xa biên nhất.",
+            "Điểm nằm gần hoặc trên siêu phẳng biên; quyết định vị trí và hướng của siêu phẳng tối ưu.",
+            "Điểm bị phân loại sai.",
+            "Tất cả điểm dữ liệu."
+        ],
+        answer: "Điểm nằm gần hoặc trên siêu phẳng biên; quyết định vị trí và hướng của siêu phẳng tối ưu."
+    },
+    {
+        id: 422,
+        chapter: 15,
+        question: "Câu 18. Tại sao K-means ít dùng cho dữ liệu thuộc tính rời rạc?",
+        options: [
+            "Chỉ xử lý dữ liệu số.",
+            "Yêu cầu chuẩn hóa.",
+            "Chỉ hợp với phân phối chuẩn.",
+            "Vì K-means tính toán khoảng cách giá trị số, với thuộc tính rời rạc không thứ tự thì khoảng cách không có ý nghĩa."
+        ],
+        answer: "Vì K-means tính toán khoảng cách giá trị số, với thuộc tính rời rạc không thứ tự thì khoảng cách không có ý nghĩa."
+    },
+    {
+        id: 423,
+        chapter: 15,
+        question: "Câu 19. Đạo hàm suy biến (vanishing gradient) là gì?",
+        options: [
+            "Chỉ xảy ra ở mạng nhân tạo.",
+            "Không ảnh hưởng quá trình học.",
+            "Hiện tượng đạo hàm trở nên quá nhỏ khi truyền ngược, làm chậm quá trình học.",
+            "Hiện tượng gradient quá lớn (nổ)."
+        ],
+        answer: "Hiện tượng đạo hàm trở nên quá nhỏ khi truyền ngược, làm chậm quá trình học."
+    },
+    {
+        id: 424,
+        chapter: 15,
+        question: "Câu 20. Để khắc phục việc phải xác định trước số cụm trong K-means, có thể dùng:",
+        options: [
+            "Phương pháp Elbow.",
+            "Độ đo Silhouette.",
+            "Cả A và B.",
+            "Không có cách nào."
+        ],
+        answer: "Cả A và B."
+    },
+	// --- BẮT ĐẦU ĐỀ HÀ TUẤN HIẾU - MÃ CHAPTER 16 ---
+    {
+        id: 425,
+        chapter: 16,
+        question: "Câu 1. Chất lượng của dữ liệu thu thập được ảnh hưởng bởi yếu tố nào sau đây?\n(i) Số lượng dữ liệu.\n(ii) Độ chính xác của nhãn.\n(iii) Sự đa dạng của dữ liệu.",
+        options: [
+            "Tất cả các yếu tố trên.",
+            "(i) đúng.",
+            "(ii) đúng.",
+            "(iii) đúng."
+        ],
+        answer: "Tất cả các yếu tố trên."
+    },
+    {
+        id: 426,
+        chapter: 16,
+        question: "Câu 2. Ngoài việc gán nhãn thủ công, còn có những cách nào khác để thu thập dữ liệu cho học có giám sát?\n(i) Dùng công cụ tự động hoá trích xuất dữ liệu từ nguồn mở.\n(ii) Dùng thuật toán/học để tạo nhãn giả.",
+        options: [
+            "Cả (i) và (ii) đều đúng.",
+            "(i) đúng.",
+            "Không có cách nào đúng.",
+            "(ii) đúng."
+        ],
+        answer: "Cả (i) và (ii) đều đúng."
+    },
+    {
+        id: 427,
+        chapter: 16,
+        question: "Câu 3. Trong đánh giá mô hình hồi quy, độ đo nào sau đây có giá trị càng lớn thì hiệu suất càng tốt?",
+        options: [
+            "MSE",
+            "MAE",
+            "RMSE",
+            "R² (R-squared)"
+        ],
+        answer: "R² (R-squared)"
+    },
+    {
+        id: 428,
+        chapter: 16,
+        question: "Câu 4. Trong bài toán dự đoán giá nhà, độ đo nào phù hợp nhất để đánh giá hiệu quả mô hình?",
+        options: [
+            "RMSE",
+            "F1-score",
+            "Recall",
+            "Accuracy"
+        ],
+        answer: "RMSE"
+    },
+    {
+        id: 429,
+        chapter: 16,
+        question: "Câu 5. So sánh quá trình hội tụ của mini-batch gradient descent và batch gradient descent, nhận xét nào đúng?",
+        options: [
+            "Mini-batch luôn hội tụ ổn định hơn.",
+            "Luôn cho quỹ đạo hội tụ giống nhau.",
+            "Mini-batch thường có quỹ đạo hội tụ dao động hơn.",
+            "Batch luôn hội tụ nhanh hơn."
+        ],
+        answer: "Mini-batch thường có quỹ đạo hội tụ dao động hơn."
+    },
+    {
+        id: 430,
+        chapter: 16,
+        question: "Câu 6. Trong hồi quy logistic, ngưỡng (threshold) dùng để:",
+        options: [
+            "Quyết định mẫu thuộc lớp nào dựa trên xác suất dự đoán.",
+            "Cân bằng dữ liệu.",
+            "Tính toán entropy.",
+            "Tính độ chính xác mô hình."
+        ],
+        answer: "Quyết định mẫu thuộc lớp nào dựa trên xác suất dự đoán."
+    },
+    {
+        id: 431,
+        chapter: 16,
+        question: "Câu 7. Giả sử x là mẫu dữ liệu, y là nhãn. Công thức Bayes để tính xác suất hậu nghiệm P(y|x) là:",
+        options: [
+            "P(y|x) = P(y)P(x|y) / P(x)",
+            "P(x) = P(y)P(x|y)",
+            "P(y) = P(x|y)P(y)",
+            "P(x|y) = P(x)P(y|x) / P(y)"
+        ],
+        answer: "P(y|x) = P(y)P(x|y) / P(x)"
+    },
+    {
+        id: 432,
+        chapter: 16,
+        question: "Câu 8. Thứ tự đúng của các bước trong thuật toán KNN là:",
+        options: [
+            "Xác định nhãn gần nhất → tính khoảng cách → chọn k",
+            "Lấy mẫu → tính khoảng cách → xác định nhãn",
+            "Xác định nhãn → gán nhãn → tính khoảng cách",
+            "Tính khoảng cách → chọn k điểm gần nhất → gán nhãn theo đa số"
+        ],
+        answer: "Tính khoảng cách → chọn k điểm gần nhất → gán nhãn theo đa số"
+    },
+    {
+        id: 433,
+        chapter: 16,
+        question: "Câu 9. Nếu chọn thuộc tính để chia trong cây quyết định: IG(A)=0.8, IG(B)=0.6. Chọn:",
+        options: [
+            "Thuộc tính B",
+            "Không đủ thông tin",
+            "Thuộc tính A",
+            "Cả hai như nhau"
+        ],
+        answer: "Thuộc tính A"
+    },
+    {
+        id: 434,
+        chapter: 16,
+        question: "Câu 10. Đầu ra của hàm kích hoạt sigmoid nằm trong khoảng:",
+        options: [
+            "[−1, 1]",
+            "[0, ∞]",
+            "[0.5, 1]",
+            "[0, 1]"
+        ],
+        answer: "[0, 1]"
+    },
+    {
+        id: 435,
+        chapter: 16,
+        question: "Câu 11. “Support vectors” trong SVM là những điểm dữ liệu nào và vì sao quan trọng?",
+        options: [
+            "Các điểm nằm gần/trên biên (margin hyperplane), quyết định vị trí & hướng siêu phẳng tối ưu.",
+            "Tất cả điểm trong tập huấn luyện.",
+            "Các điểm bị phân loại sai hoàn toàn.",
+            "Các điểm nằm xa siêu phẳng nhất."
+        ],
+        answer: "Các điểm nằm gần/trên biên (margin hyperplane), quyết định vị trí & hướng siêu phẳng tối ưu."
+    },
+    {
+        id: 436,
+        chapter: 16,
+        question: "Câu 12. Tính Gradient Descent 1 bước: θ=[-0.96, 4.84, -3.26], x=[1.0, 1.74, 0.14], y=-0.31, η=0.04. Tham số mới?",
+        options: [
+            "[-0.67, 5.35, -3.22]",
+            "[7.32, 12.73, 1.02]",
+            "[-1.55, 3.82, -3.34]",
+            "[-1.25, 4.33, -3.30]"
+        ],
+        answer: "[-1.25, 4.33, -3.30]"
+    },
+    {
+        id: 437,
+        chapter: 16,
+        question: "Câu 13. Tính xác suất Naive Bayes P(x|No) với x=(Female, Young, High) (dùng Laplace smoothing).",
+        options: [
+            "0.037",
+            "0.016",
+            "0.021",
+            "0.094"
+        ],
+        answer: "0.037"
+    },
+    {
+        id: 438,
+        chapter: 16,
+        question: "Câu 14. KNN (K=3, Manhattan). Điểm x=(4,1). Dữ liệu: (6,4,C), (8,2,A), (3,7,B), (8,5,A), (3,8,A). Nhãn dự đoán?",
+        options: [
+            "B",
+            "C",
+            "A",
+            "Một trong các nhãn sau: A, B, C"
+        ],
+        answer: "Một trong các nhãn sau: A, B, C"
+    },
+    {
+        id: 439,
+        chapter: 16,
+        question: "Câu 15. Tính Information Gain khi dùng thuộc tính Employment Status để chia (Entropy gốc ~0.985, Weighted Entropy ~0.39).",
+        options: [
+            "0.39",
+            "0.07",
+            "0.92",
+            "0.59"
+        ],
+        answer: "0.59"
+    },
+    {
+        id: 440,
+        chapter: 16,
+        question: "Câu 16. Hard-margin SVM. Support vectors: [-1, -1], [-2, -9], [0, 8]. Lambdas (nhân tử): [586, 310, 276]. Tìm w, b?",
+        options: [
+            "w=[-1206, -1168], b=31",
+            "w=[-1206, -1168], b=-11.67",
+            "w=[34, -4], b=31",
+            "w=[34, -4], b=-11.67"
+        ],
+        answer: "w=[34, -4], b=31"
+    },
+    {
+        id: 441,
+        chapter: 16,
+        question: "Câu 17. Mạng Nơ-ron (MNIST): 784 input, 1 lớp ẩn 128 nơ-ron, 10 output. Tổng số trọng số (không tính bias)?",
+        options: [
+            "102,544",
+            "101,632",
+            "101,770",
+            "100,480"
+        ],
+        answer: "101,632"
+    },
+    {
+        id: 442,
+        chapter: 16,
+        question: "Câu 18. Công thức Laplace Smoothing P(A=x|c) đúng là:",
+        options: [
+            "(count(x,c)) / (count(c) + V)",
+            "(count(x,c) + 1) / (count(c) + V)",
+            "(count(x,c) + V) / (count(c) + V)",
+            "(count(x,c)) / (count(c) + 1)"
+        ],
+        answer: "(count(x,c) + 1) / (count(c) + V)"
+    },
+    {
+        id: 443,
+        chapter: 16,
+        question: "Câu 19. Soft-margin SVM: nếu tăng tham số C trong hàm mục tiêu thì:",
+        options: [
+            "Mô hình đơn giản hơn, dễ underfitting",
+            "Không ảnh hưởng",
+            "Mô hình “cứng” hơn (ít regularization), dễ overfitting hơn",
+            "Lề (margin) luôn tối đa"
+        ],
+        answer: "Mô hình “cứng” hơn (ít regularization), dễ overfitting hơn"
+    },
+    {
+        id: 444,
+        chapter: 16,
+        question: "Câu 20. Nhược điểm khi dùng kernel trong SVM: (i) Tốn tài nguyên tính toán, (ii) Khó chọn kernel phù hợp, (iii) Không giải quyết được bài toán đa lớp.",
+        options: [
+            "(i) và (iii)",
+            "Cả 3 đúng",
+            "(i) và (ii)",
+            "(ii) và (iii)"
+        ],
+        answer: "(i) và (ii)"
+    },
+	// --- BẮT ĐẦU ĐỀ LÊ THÀNH TRUNG - MÃ CHAPTER 17 ---
+    {
+        id: 445,
+        chapter: 17,
+        question: "Câu 1. Ứng dụng phát hiện gian lận thẻ tín dụng. Phát biểu nào đúng về tập huấn luyện?\n(i) Tập huấn luyện và kiểm nghiệm có thể trùng nhau.\n(ii) Tập huấn luyện không cần nhãn.\n(iii) Dùng cho học có giám sát.\n(iv) Bao gồm đầu vào và nhãn.",
+        options: [
+            "(iii) và (iv)",
+            "Cả 4 phát biểu trên",
+            "(i) (ii) (iii)",
+            "(i) (iii) (iv)"
+        ],
+        answer: "(iii) và (iv)"
+    },
+    {
+        id: 446,
+        chapter: 17,
+        question: "Câu 2. Quy trình xây dựng hệ thống gợi ý phim:\n(i) Chuẩn bị dữ liệu.\n(ii) Sử dụng mô hình dự đoán.\n(iii) Huấn luyện mô hình.",
+        options: [
+            "(i) → (iii) → (ii)",
+            "(ii) → (i) → (iii)",
+            "(iii) → (ii) → (i)",
+            "(iii) → (i) → (ii)"
+        ],
+        answer: "(i) → (iii) → (ii)"
+    },
+    {
+        id: 447,
+        chapter: 17,
+        question: "Câu 3. Phương pháp đánh giá chéo nào sử dụng một điểm dữ liệu làm tập kiểm nghiệm, phần còn lại làm tập huấn luyện?",
+        options: [
+            "Đánh giá chéo một dữ liệu (leave-one-out)",
+            "Đánh giá chéo k-fold",
+            "Lấy mẫu Bootstrap",
+            "Lấy mẫu con ngẫu nhiên"
+        ],
+        answer: "Đánh giá chéo một dữ liệu (leave-one-out)"
+    },
+    {
+        id: 448,
+        chapter: 17,
+        question: "Câu 15. Tính lợi thông tin (Information Gain) khi dùng thuộc tính “Credit Score” để chia dữ liệu (dữ liệu bảng 7 dòng: Good, Fair, Excellent...).",
+        options: [
+            "0.29",
+            "0.70",
+            "1.00",
+            "0.01"
+        ],
+        answer: "0.29"
+    },
+    {
+        id: 449,
+        chapter: 17,
+        question: "Câu 16. Hard-margin SVM. Các vector hỗ trợ: [-1, -3], [0, 3], [1, 5], [1, 8], [6, -4], [5, -7]. Tìm siêu phẳng phân tách?",
+        options: [
+            "w = [-1.29 0.75], b = -1.15",
+            "w = [-0.41 -0.41], b = -0.61",
+            "w = [-1.29 0.75], b = -0.61",
+            "w = [-0.41 -0.41], b = -1.15"
+        ],
+        answer: "w = [-1.29 0.75], b = -1.15"
+    },
+    {
+        id: 450,
+        chapter: 17,
+        question: "Câu 17. Mạng nơ-ron MNIST (784 đầu vào, 1 lớp ẩn 128 nơ-ron, 10 đầu ra). Tổng số trọng số (KHÔNG tính bias)?",
+        options: [
+            "101,632",
+            "102,544",
+            "101,770",
+            "100,480"
+        ],
+        answer: "101,632"
+    },
+    {
+        id: 451,
+        chapter: 17,
+        question: "Câu 18. Để khắc phục nhược điểm phải xác định trước số cụm trong K-means, ta có thể dùng:",
+        options: [
+            "Cả A và B",
+            "Phương pháp “khuỷu tay” (Elbow method)",
+            "Độ đo đánh giá: Silhouette",
+            "Không có cách nào"
+        ],
+        answer: "Cả A và B"
+    },
+	// --- BẮT ĐẦU ĐỀ 15 (NGUYỄN ANH TUẤN) - MÃ CHAPTER 18 ---
+    {
+        id: 452,
+        chapter: 18,
+        question: "Câu 1. Quy trình xây dựng hệ thống gợi ý phim cá nhân hoá:\n(i) Chuẩn bị và làm sạch dữ liệu.\n(ii) Sử dụng mô hình dự đoán.\n(iii) Huấn luyện mô hình.",
+        options: [
+            "(i) → (iii) → (ii)",
+            "(ii) → (i) → (iii)",
+            "(iii) → (i) → (ii)",
+            "(iii) → (ii) → (i)"
+        ],
+        answer: "(i) → (iii) → (ii)"
+    },
+    {
+        id: 453,
+        chapter: 18,
+        question: "Câu 2. Phát biểu đúng về Tập huấn luyện (hệ thống phát hiện gian lận thẻ tín dụng):\n(i) Có thể trùng với tập kiểm nghiệm.\n(ii) Không cần nhãn.\n(iii) Dùng cho học có giám sát.\n(iv) Bao gồm đầu vào và nhãn.",
+        options: [
+            "(iii) và (iv)",
+            "Cả 4 phát biểu trên",
+            "(i), (iii) và (iv)",
+            "(i), (ii) và (iii)"
+        ],
+        answer: "(iii) và (iv)"
+    },
+    {
+        id: 454,
+        chapter: 18,
+        question: "Câu 3. Trong bài toán dự đoán giá nhà (hồi quy), độ đo nào phù hợp nhất?",
+        options: [
+            "RMSE",
+            "Accuracy",
+            "Recall",
+            "F1-score"
+        ],
+        answer: "RMSE"
+    },
+    {
+        id: 455,
+        chapter: 18,
+        question: "Câu 4. Phương pháp đánh giá chéo sử dụng MỘT điểm dữ liệu làm tập kiểm nghiệm, phần còn lại làm tập huấn luyện?",
+        options: [
+            "Đánh giá chéo một dữ liệu (leave-one-out cross-validation)",
+            "Lấy mẫu con ngẫu nhiên",
+            "Đánh giá chéo k-fold",
+            "Lấy mẫu Bootstrap"
+        ],
+        answer: "Đánh giá chéo một dữ liệu (leave-one-out cross-validation)"
+    },
+    {
+        id: 456,
+        chapter: 18,
+        question: "Câu 5. So với Batch Gradient Descent, Mini-batch Gradient Descent thường:",
+        options: [
+            "Mất ít thời gian tính toán hơn cho mỗi lần cập nhật tham số.",
+            "Mất nhiều thời gian tính toán hơn.",
+            "Thời gian tính toán tương đương.",
+            "Không thể so sánh được."
+        ],
+        answer: "Mất ít thời gian tính toán hơn cho mỗi lần cập nhật tham số."
+    },
+    {
+        id: 457,
+        chapter: 18,
+        question: "Câu 6. Sự khác biệt cơ bản giữa hồi quy tuyến tính và hồi quy logistic:",
+        options: [
+            "Hồi quy tuyến tính dự đoán giá trị liên tục, còn hồi quy logistic dự đoán xác suất thuộc về một lớp nhất định.",
+            "Hồi quy tuyến tính dùng để phân loại, còn hồi quy logistic dùng để dự đoán.",
+            "Hồi quy logistic phức tạp hơn.",
+            "Chỉ khác nhau về cách gọi."
+        ],
+        answer: "Hồi quy tuyến tính dự đoán giá trị liên tục, còn hồi quy logistic dự đoán xác suất thuộc về một lớp nhất định."
+    },
+    {
+        id: 458,
+        chapter: 18,
+        question: "Câu 7. Phân phối xác suất nào thường dùng cho đặc trưng liên tục trong Naive Bayes?",
+        options: [
+            "Phân phối Gaussian",
+            "Phân phối Bernoulli",
+            "Phân phối Poisson",
+            "Phân phối theo cấp số nhân"
+        ],
+        answer: "Phân phối Gaussian"
+    },
+    {
+        id: 459,
+        chapter: 18,
+        question: "Câu 8. Trong thuật toán kNN, giá trị 'k' chỉ:",
+        options: [
+            "Số lượng láng giềng gần nhất được xem xét để dự đoán.",
+            "Thước đo khoảng cách.",
+            "Số lượng lớp trong dữ liệu.",
+            "Số lượng đặc trưng."
+        ],
+        answer: "Số lượng láng giềng gần nhất được xem xét để dự đoán."
+    },
+    {
+        id: 460,
+        chapter: 18,
+        question: "Câu 9. Cây quyết định xác định điểm phân tách tốt nhất cho đặc trưng giá trị thực như thế nào?",
+        options: [
+            "Bằng cách tính entropy hoặc lợi thông tin cho các ngưỡng tiềm năng và chọn ngưỡng tạo ra nút con thuần túy nhất.",
+            "Chọn ngẫu nhiên.",
+            "So sánh trực tiếp với ngưỡng định trước.",
+            "Tính MSE thấp nhất (cho phân loại)."
+        ],
+        answer: "Bằng cách tính entropy hoặc lợi thông tin cho các ngưỡng tiềm năng và chọn ngưỡng tạo ra nút con thuần túy nhất."
+    },
+    {
+        id: 461,
+        chapter: 18,
+        question: "Câu 10. Chức năng của lan truyền ngược (backpropagation)?",
+        options: [
+            "Tính toán đạo hàm của hàm mất mát bằng cách lan truyền lỗi ngược từ đầu ra về các lớp ẩn và đầu vào.",
+            "Chuyển đổi trọng số ngẫu nhiên.",
+            "Tăng tốc độ huấn luyện.",
+            "Lưu trữ trọng số."
+        ],
+        answer: "Tính toán đạo hàm của hàm mất mát bằng cách lan truyền lỗi ngược từ đầu ra về các lớp ẩn và đầu vào."
+    },
+    {
+        id: 462,
+        chapter: 18,
+        question: "Câu 11. 'Support vectors' trong SVM là gì?",
+        options: [
+            "Các điểm dữ liệu nằm gần hoặc trên siêu phẳng biên (margin hyperplane); ảnh hưởng đến vị trí siêu phẳng tối ưu.",
+            "Các điểm nằm xa siêu phẳng nhất.",
+            "Tất cả các điểm dữ liệu.",
+            "Các điểm bị phân loại sai."
+        ],
+        answer: "Các điểm dữ liệu nằm gần hoặc trên siêu phẳng biên (margin hyperplane); ảnh hưởng đến vị trí siêu phẳng tối ưu."
+    },
+    {
+        id: 463,
+        chapter: 18,
+        question: "Câu 12. Tính Gradient Descent 1 bước: θ=[1.05, 3.04, 3.47], x=[1.0, 1.34, 0.47], y=-0.55, η=0.03. Tham số mới?",
+        options: [
+            "[0.83, 2.75, 3.37]",
+            "[7.3, 9.79, 3.43]",
+            "[0.61, 2.45, 3.26]",
+            "[1.27, 3.33, 3.57]"
+        ],
+        answer: "[0.83, 2.75, 3.37]"
+    },
+    {
+        id: 464,
+        chapter: 18,
+        question: "Câu 13. Tính xác suất Naive Bayes P(x|No) với x=(Female, Young, High) dùng Laplace Smoothing. (Dữ liệu: No(3 mẫu: 1M-Y-L, 4F-Y-M, 5M-M-L)).",
+        options: [
+            "0.037",
+            "0.031",
+            "0.074",
+            "0.013"
+        ],
+        answer: "0.037"
+    },
+    {
+        id: 465,
+        chapter: 18,
+        question: "Câu 14. KNN (K=3, Manhattan) cho điểm x=(4,9). Dữ liệu: (7,9,B), (4,3,A), (2,2,C), (9,4,A), (9,1,B).",
+        options: [
+            "Một trong các nhãn sau: A, B, C",
+            "Một trong các nhãn sau: B, C",
+            "Một trong các nhãn sau: A, B",
+            "A"
+        ],
+        answer: "Một trong các nhãn sau: A, B, C"
+    },
+    {
+        id: 466,
+        chapter: 18,
+        question: "Câu 15. Tính Information Gain cho thuộc tính 'Employment Status' (Employed, Unemployed, Self-Employed). (Entropy gốc ~0.985, Weighted Entropy ~0.39).",
+        options: [
+            "0.59",
+            "0.39",
+            "0.07",
+            "0.92"
+        ],
+        answer: "0.59"
+    },
+    {
+        id: 467,
+        chapter: 18,
+        question: "Câu 16. Hard-margin SVM. Support vectors: [-1, -1], [-2, -9], [0, 8]. Lambda: [586, 310, 276]. Tìm w, b?",
+        options: [
+            "w = [34, -4], b = 31",
+            "w = [-1206, -1168], b = 31",
+            "w = [-1206, -1168], b = -11.67",
+            "w = [34, -4], b = -11.67"
+        ],
+        answer: "w = [34, -4], b = 31"
+    },
+    {
+        id: 468,
+        chapter: 18,
+        question: "Câu 17. Mạng nơ-ron MNIST (784 input, 1 lớp ẩn 128, 10 output). Tổng trọng số (không bias)?",
+        options: [
+            "101,632",
+            "102,544",
+            "101,770",
+            "100,480"
+        ],
+        answer: "101,632"
+    },
+    {
+        id: 469,
+        chapter: 18,
+        question: "Câu 18. Công thức Laplace Smoothing P(A=x|c) đúng là:",
+        options: [
+            "(count(x,c) + 1) / (count(c) + V)",
+            "(count(x,c)) / (count(c) + V)",
+            "(count(x,c) + V) / (count(c) + V)",
+            "(count(x,c)) / (count(c) + 1)"
+        ],
+        answer: "(count(x,c) + 1) / (count(c) + V)"
+    },
+    {
+        id: 470,
+        chapter: 18,
+        question: "Câu 19. Soft-margin SVM: Tăng tham số C dẫn đến:",
+        options: [
+            "Mô hình 'cứng' hơn (ít regularization), dễ overfitting hơn.",
+            "Mô hình đơn giản hơn, dễ underfitting.",
+            "Không ảnh hưởng.",
+            "Lề luôn tối đa."
+        ],
+        answer: "Mô hình 'cứng' hơn (ít regularization), dễ overfitting hơn."
+    },
+    {
+        id: 471,
+        chapter: 18,
+        question: "Câu 20. Nhược điểm của Kernel SVM:",
+        options: [
+            "Tốn tài nguyên tính toán và Khó chọn kernel phù hợp.",
+            "Không giải quyết được bài toán đa lớp.",
+            "Cả 3 ý trên.",
+            "Chỉ tốn tài nguyên."
+        ],
+        answer: "Tốn tài nguyên tính toán và Khó chọn kernel phù hợp."
+    },
+	// --- BẮT ĐẦU ĐỀ VIỆT - MÃ CHAPTER 19 ---
+    {
+        id: 472,
+        chapter: 19,
+        question: "Câu 1. Lý do nào sau đây thường khiến việc mong đợi mô hình hoạt động kém trong thực tế?\nA. Dữ liệu huấn luyện không đủ.\nB. Dữ liệu bị nhiễu.\nC. Dữ liệu không đầy đủ.\nD. Tất cả các lý do trên.",
+        options: [
+            "Tất cả các lý do trên",
+            "Dữ liệu huấn luyện không đủ",
+            "Dữ liệu bị nhiễu",
+            "Dữ liệu không đầy đủ"
+        ],
+        answer: "Tất cả các lý do trên"
+    },
+    {
+        id: 473,
+        chapter: 19,
+        question: "Câu 2. Ứng dụng phát hiện tấn công mạng. Phát biểu đúng về tập huấn luyện:\n(i) Tập huấn luyện và kiểm tra khác nhau.\n(ii) Gồm mẫu lưu lượng và nhãn (nếu có giám sát).\n(iii) Dùng để huấn luyện mô hình.\n(iv) Chỉ chứa đầu vào không nhãn.",
+        options: [
+            "(i), (ii), (iv)",
+            "(i)",
+            "(i), (ii), (iii)",
+            "(ii), (iii)"
+        ],
+        answer: "(i), (ii), (iii)"
+    },
+    {
+        id: 474,
+        chapter: 19,
+        question: "Câu 3. Trong bài toán hồi quy, độ đo nào đánh giá mức độ phù hợp giữa giá trị dự đoán và thực tế?",
+        options: [
+            "Sai số bình phương trung bình (MSE)",
+            "Độ phủ (Recall)",
+            "Độ chính xác tổng thể (Accuracy)",
+            "Entropy"
+        ],
+        answer: "Sai số bình phương trung bình (MSE)"
+    },
+    {
+        id: 475,
+        chapter: 19,
+        question: "Câu 4. Trong bài toán phân loại, khi dữ liệu bị mất cân bằng (imbalanced), tại sao Accuracy không phải là độ đo tốt nhất?",
+        options: [
+            "Vì Accuracy không tính đến chi phí sai lầm của từng lớp.",
+            "Vì Accuracy sẽ cao giả tạo do mô hình đoán toàn lớp đa số.",
+            "Vì Accuracy chỉ dùng cho hồi quy.",
+            "Vì Accuracy không tính được khi dữ liệu lớn."
+        ],
+        answer: "Vì Accuracy sẽ cao giả tạo do mô hình đoán toàn lớp đa số."
+    },
+    {
+        id: 476,
+        chapter: 19,
+        question: "Câu 9. Tại sao chúng ta cần cắt tỉa (pruning) cây quyết định?",
+        options: [
+            "Để giảm độ phức tạp của cây và tránh overfitting",
+            "Để tăng độ phức tạp của cây",
+            "Để giảm khả năng diễn giải của mô hình",
+            "Để tăng tốc quá trình huấn luyện"
+        ],
+        answer: "Để giảm độ phức tạp của cây và tránh overfitting"
+    },
+    {
+        id: 477,
+        chapter: 19,
+        question: "Câu 10. Thuật toán Perceptron có thể phân loại chính xác trường hợp nào?",
+        options: [
+            "Dữ liệu có thể phân tách tuyến tính",
+            "Bất kỳ loại dữ liệu nào",
+            "Dữ liệu phân loại có nhiều nhãn",
+            "Dữ liệu không thể phân tách tuyến tính"
+        ],
+        answer: "Dữ liệu có thể phân tách tuyến tính"
+    },
+    {
+        id: 478,
+        chapter: 19,
+        question: "Câu 11. Trong SVM, vector hỗ trợ (support vectors) là:",
+        options: [
+            "Các vector hỗ trợ tham gia xây dựng biên quyết định của mô hình",
+            "Các vector có hệ số bằng 0 trong hàm quyết định",
+            "Các vector lớn nhất trong tập dữ liệu",
+            "Các vector là ngoại lệ và bị bỏ qua"
+        ],
+        answer: "Các vector hỗ trợ tham gia xây dựng biên quyết định của mô hình"
+    },
+    {
+        id: 479,
+        chapter: 19,
+        question: "Câu 18. Việc chọn giá trị k trong kNN ảnh hưởng như thế nào?",
+        options: [
+            "k lớn làm giảm độ nhạy của mô hình với nhiễu nhưng có thể gây underfitting",
+            "k nhỏ làm giảm khả năng mô hình với nhiễu nhưng có thể gây underfitting",
+            "k lớn làm tăng độ nhạy của mô hình nhưng có thể gây overfitting",
+            "k nhỏ không ảnh hưởng đến hiệu suất"
+        ],
+        answer: "k lớn làm giảm độ nhạy của mô hình với nhiễu nhưng có thể gây underfitting"
+    },
+    {
+        id: 480,
+        chapter: 19,
+        question: "Câu 19. Trong học tăng cường, tác nhân (agent) học hỏi thông qua:",
+        options: [
+            "Tương tác với môi trường và nhận phần thưởng/phạt",
+            "Đọc dữ liệu được gắn nhãn trước",
+            "Phân tích cấu trúc dữ liệu tĩnh",
+            "Sao chép hành vi của chuyên gia"
+        ],
+        answer: "Tương tác với môi trường và nhận phần thưởng/phạt"
+    },
+	// --- BẮT ĐẦU ĐỀ HIỀN - MÃ CHAPTER 20 ---
+    {
+        id: 481,
+        chapter: 20,
+        question: "Câu 1. Học máy (machine learning) là quá trình:",
+        options: [
+            "Cho máy tính khả năng tự động cải thiện hiệu suất dựa trên dữ liệu.",
+            "Lập trình máy tính để thực hiện các tác vụ theo một tập hợp các quy tắc cố định.",
+            "Tạo ra các thuật toán để giải quyết các bài toán toán học phức tạp.",
+            "Mô phỏng quá trình học hỏi của con người thông qua các mạng thần kinh nhân tạo."
+        ],
+        answer: "Cho máy tính khả năng tự động cải thiện hiệu suất dựa trên dữ liệu."
+    },
+    {
+        id: 482,
+        chapter: 20,
+        question: "Câu 2. Quy trình xây dựng hệ thống phân loại sản phẩm lỗi:\n(i) Sử dụng mô hình.\n(ii) Huấn luyện mô hình.\n(iii) Chuẩn bị và làm sạch dữ liệu.",
+        options: [
+            "(iii) (ii) (i)",
+            "(ii) (iii) (i)",
+            "(ii) (i) (iii)",
+            "(i) (iii) (ii)"
+        ],
+        answer: "(iii) (ii) (i)"
+    },
+    {
+        id: 483,
+        chapter: 20,
+        question: "Câu 3. Tại sao độ chính xác tổng thể (Accuracy) KHÔNG nên được sử dụng làm thước đo chính khi đánh giá bài toán phân loại có dữ liệu mất cân bằng?",
+        options: [
+            "Vì một mô hình có thể đạt Accuracy rất cao chỉ bằng cách luôn dự đoán lớp đa số.",
+            "Vì Accuracy chỉ tập trung vào các dự đoán đúng của lớp thiểu số.",
+            "Vì Accuracy chỉ có thể áp dụng cho các bài toán phân loại nhị phân.",
+            "Vì Accuracy là một độ đo quá phức tạp."
+        ],
+        answer: "Vì một mô hình có thể đạt Accuracy rất cao chỉ bằng cách luôn dự đoán lớp đa số."
+    },
+    {
+        id: 484,
+        chapter: 20,
+        question: "Câu 4. Trong bài toán phân loại nhị phân, độ đo nào biểu thị tỷ lệ phần trăm các trường hợp dương tính (positive) được mô hình dự đoán đúng trên tổng số các trường hợp dương tính thực tế?",
+        options: [
+            "Độ chính xác tổng thể (Accuracy)",
+            "Độ phủ (Recall/Sensitivity)",
+            "Điểm F1 (F1-score)",
+            "Độ chính xác (Precision)"
+        ],
+        answer: "Độ phủ (Recall/Sensitivity)"
+    },
+    {
+        id: 485,
+        chapter: 20,
+        question: "Câu 5. So với Batch Gradient Descent, thuật toán Mini-batch Gradient Descent thường:",
+        options: [
+            "Mất ít thời gian tính toán hơn trong một lần cập nhật tham số.",
+            "Mất nhiều thời gian tính toán hơn.",
+            "Thời gian tính toán tương đương.",
+            "Không thể so sánh được thời gian tính toán."
+        ],
+        answer: "Mất ít thời gian tính toán hơn trong một lần cập nhật tham số."
+    },
+    {
+        id: 486,
+        chapter: 20,
+        question: "Câu 6. Hàm sigmoid trong hồi quy logistic có vai trò:",
+        options: [
+            "Biến đổi giá trị dự đoán thành xác suất thuộc về một lớp nhất định.",
+            "Giảm kích thước dữ liệu.",
+            "Tính toán lỗi dự đoán.",
+            "Cân bằng dữ liệu."
+        ],
+        answer: "Biến đổi giá trị dự đoán thành xác suất thuộc về một lớp nhất định."
+    },
+    {
+        id: 487,
+        chapter: 20,
+        question: "Câu 7. Giả sử x là mẫu dữ liệu, y là nhãn, công thức Bayes để tính xác suất hậu nghiệm là gì?",
+        options: [
+            "P(y|x) = P(y) * P(x|y) / P(x)",
+            "P(x) = P(y) * P(x|y)",
+            "P(x|y) = P(x) * P(y|x) / P(y)",
+            "P(y) = P(x|y) * P(y)"
+        ],
+        answer: "P(y|x) = P(y) * P(x|y) / P(x)"
+    },
+    {
+        id: 488,
+        chapter: 20,
+        question: "Câu 8. kNN là một thuật toán 'lười' (lazy learning). Điều này có nghĩa là gì?",
+        options: [
+            "Không có giai đoạn huấn luyện rõ ràng; tất cả các tính toán được thực hiện tại thời điểm dự đoán.",
+            "Mô hình không cần lưu trữ bất kỳ thông tin nào.",
+            "Thuật toán tự động tìm ra số lượng láng giềng k.",
+            "Nó chỉ học một tập hợp con nhỏ các điểm dữ liệu."
+        ],
+        answer: "Không có giai đoạn huấn luyện rõ ràng; tất cả các tính toán được thực hiện tại thời điểm dự đoán."
+    },
+    {
+        id: 489,
+        chapter: 20,
+        question: "Câu 9. Các nút lá trong cây quyết định đại diện cho:",
+        options: [
+            "Lớp hoặc giá trị được dự đoán cuối cùng cho một mẫu đầu vào nhất định.",
+            "Các tính toán trung gian.",
+            "Các điểm quyết định nơi dữ liệu được phân chia.",
+            "Các đặc trưng đầu vào."
+        ],
+        answer: "Lớp hoặc giá trị được dự đoán cuối cùng cho một mẫu đầu vào nhất định."
+    },
+    {
+        id: 490,
+        chapter: 20,
+        question: "Câu 10. Thuật toán Perceptron có thể phân loại chính xác trong trường hợp nào?",
+        options: [
+            "Dữ liệu có thể phân tách tuyến tính.",
+            "Dữ liệu không thể phân tách tuyến tính.",
+            "Bất kỳ loại dữ liệu nào.",
+            "Dữ liệu phân loại có nhiều nhãn."
+        ],
+        answer: "Dữ liệu có thể phân tách tuyến tính."
+    },
+    {
+        id: 491,
+        chapter: 20,
+        question: "Câu 11. Lỗi phân loại của một điểm dữ liệu trong SVM được kiểm soát bởi tham số nào?",
+        options: [
+            "Tham số C (tham số Soft Margin).",
+            "Tham số độ dốc của siêu phẳng.",
+            "Tham số gamma trong kernel RBF.",
+            "Tham số epsilon."
+        ],
+        answer: "Tham số C (tham số Soft Margin)."
+    },
+    {
+        id: 492,
+        chapter: 20,
+        question: "Câu 12. Tính Gradient Descent: θ=[-3.12, 2.17, -4.21], x=[1.0, 0.05, 1.23], y=-8.95, η=0.05. Tham số mới?",
+        options: [
+            "θ = [-3.16, 2.17, -4.26]",
+            "θ = [-3.08, 2.17, -4.16]",
+            "θ = [-3.2, 2.17, -4.3]",
+            "θ = [0.76, 0.04, 0.94]"
+        ],
+        answer: "θ = [-3.16, 2.17, -4.26]"
+    },
+    {
+        id: 493,
+        chapter: 20,
+        question: "Câu 13. Tính xác suất Naive Bayes P(x|Yes) (x=Male, Middle-aged, Medium). Dữ liệu 4 Yes, 3 No. Count(Male|Yes)=2, Count(Mid|Yes)=1, Count(Med|Yes)=1.",
+        options: [
+            "0.031",
+            "0.013",
+            "0.018",
+            "0.074"
+        ],
+        answer: "0.031"
+    },
+    {
+        id: 494,
+        chapter: 20,
+        question: "Câu 14. kNN (K=3, Manhattan) cho điểm x=(3,3). Dữ liệu: (1,6,B), (3,9,C), (9,3,A), (7,6,A), (8,6,A).",
+        options: [
+            "Một trong các nhãn sau: A, B, C",
+            "A",
+            "Một trong các nhãn sau: B",
+            "Một trong các nhãn sau: C"
+        ],
+        answer: "Một trong các nhãn sau: A, B, C"
+    },
+    {
+        id: 495,
+        chapter: 20,
+        question: "Câu 15. Tính Information Gain cho thuộc tính 'Symptom 2' (Cough, No Cough, Sore Throat, Runny Nose). (Entropy gốc ~0.985, Weighted Entropy ~0.68).",
+        options: [
+            "0.31",
+            "0.68",
+            "1.92",
+            "0.93"
+        ],
+        answer: "0.31"
+    },
+    {
+        id: 496,
+        chapter: 20,
+        question: "Câu 16. Hard-margin SVM. Support vectors: [2, 9], [-1, 5], [2, 3]. Lambda: [0.01, 0.15, 0.15]. Tìm w, b?",
+        options: [
+            "w = [-0.43, 0.39], b = -1.45",
+            "w = [0.17, 1.29], b = -1.45",
+            "w = [-0.43, 0.39], b = -1.24",
+            "w = [0.17, 1.29], b = -1.24"
+        ],
+        answer: "w = [-0.43, 0.39], b = -1.45"
+    },
+    {
+        id: 497,
+        chapter: 20,
+        question: "Câu 17. Cập nhật trọng số Perceptron. w=[3.6, 6.7, -5.8], b=3.5. x=[-0.0, -0.7, -5.7], y=-1. Trọng số mới?",
+        options: [
+            "w = [3.6, 7.4, -0.1]",
+            "w = [3.6, 6.0, -11.5]",
+            "w = [3.6, 7.0, -2.9]",
+            "w = [3.6, 6.7, -5.8]"
+        ],
+        answer: "w = [3.6, 7.4, -0.1]"
+    },
+    {
+        id: 498,
+        chapter: 20,
+        question: "Câu 18. Hồi quy Logistic phù hợp hơn Hồi quy Tuyến tính cho phân loại nhị phân vì:",
+        options: [
+            "Sử dụng hàm sigmoid để ánh xạ đầu ra tuyến tính vào phạm vi [0, 1], biểu thị xác suất.",
+            "Tối ưu hóa trực tiếp độ chính xác phân loại.",
+            "Tự động xử lý đặc trưng không tuyến tính.",
+            "Không yêu cầu phân phối chuẩn."
+        ],
+        answer: "Sử dụng hàm sigmoid để ánh xạ đầu ra tuyến tính vào phạm vi [0, 1], biểu thị xác suất."
+    },
+    {
+        id: 499,
+        chapter: 20,
+        question: "Câu 19. Trong thuật toán ISODATA, nếu kết quả có quá nhiều cụm, cần thay đổi ngưỡng như thế nào để thu được ít cụm hơn?",
+        options: [
+            "Tăng dist_thresh và tăng std_thresh",
+            "Giảm dist_thresh và giảm std_thresh",
+            "Tăng dist_thresh và giảm std_thresh",
+            "Giảm dist_thresh và tăng std_thresh"
+        ],
+        answer: "Tăng dist_thresh và tăng std_thresh"
+    },
+    {
+        id: 500,
+        chapter: 20,
+        question: "Câu 20. Sự khác biệt chính giữa Random Forest và Bagging là gì?",
+        options: [
+            "Random Forest chọn ngẫu nhiên một tập con các đặc trưng để xây dựng mỗi cây, Bagging sử dụng tất cả đặc trưng.",
+            "Random Forest sử dụng học tuần tự, Bagging học đồng thời.",
+            "Random Forest sử dụng một mô hình mạnh, Bagging sử dụng nhiều mô hình yếu.",
+            "Random Forest chỉ áp dụng cho phân loại."
+        ],
+        answer: "Random Forest chọn ngẫu nhiên một tập con các đặc trưng để xây dựng mỗi cây, Bagging sử dụng tất cả đặc trưng."
+    },
+	// --- BẮT ĐẦU ĐỀ ĐỨC - MÃ CHAPTER 21 ---
+    {
+        id: 501,
+        chapter: 21,
+        question: "Câu 1. Ngoài việc gán nhãn thủ công, còn có những cách nào khác để thu thập dữ liệu huấn luyện?\ni) Thu thập dữ liệu bằng công cụ tự động\nii) Sử dụng thuật toán để tạo nhãn giả (pseudo-labeling)",
+        options: [
+            "Cả i) và ii) đều đúng",
+            "Không có cách nào đúng",
+            "Chỉ i) đúng",
+            "Chỉ ii) đúng"
+        ],
+        answer: "Cả i) và ii) đều đúng"
+    },
+    {
+        id: 502,
+        chapter: 21,
+        question: "Câu 2. Trong học có giám sát (Supervised Learning), việc gán nhãn dữ liệu có vai trò gì?",
+        options: [
+            "Cung cấp đầu ra mong muốn cho mô hình học",
+            "Giảm số chiều của dữ liệu",
+            "Tăng tốc độ huấn luyện mô hình",
+            "Loại bỏ dữ liệu nhiễu"
+        ],
+        answer: "Cung cấp đầu ra mong muốn cho mô hình học"
+    },
+    {
+        id: 503,
+        chapter: 21,
+        question: "Câu 3. Tại sao độ đo Độ chính xác tổng thể (Accuracy) KHÔNG nên dùng trong bài toán dữ liệu mất cân bằng?",
+        options: [
+            "Vì Accuracy cao do dự đoán đúng lớp đa số, bỏ qua lớp thiểu số",
+            "Vì Accuracy không đo được sai số",
+            "Vì Accuracy chỉ dùng cho hồi quy",
+            "Vì Accuracy phụ thuộc vào kích thước dữ liệu"
+        ],
+        answer: "Vì Accuracy cao do dự đoán đúng lớp đa số, bỏ qua lớp thiểu số"
+    },
+    {
+        id: 504,
+        chapter: 21,
+        question: "Câu 4. Trong ma trận nhầm lẫn (Confusion Matrix), thuật ngữ “False Positive (FP)” ám chỉ điều gì?",
+        options: [
+            "Dự đoán dương tính nhưng thực tế âm tính",
+            "Dự đoán âm tính nhưng thực tế dương tính",
+            "Dự đoán dương tính và thực tế dương tính",
+            "Dự đoán âm tính và thực tế âm tính"
+        ],
+        answer: "Dự đoán dương tính nhưng thực tế âm tính"
+    },
+    {
+        id: 505,
+        chapter: 21,
+        question: "Câu 5. Siêu tham số nào sau đây ảnh hưởng TRỰC TIẾP đến tốc độ hội tụ của thuật toán học?",
+        options: [
+            "Learning rate",
+            "Batch size",
+            "Số epoch",
+            "Số lớp đầu ra"
+        ],
+        answer: "Learning rate"
+    },
+    {
+        id: 506,
+        chapter: 21,
+        question: "Câu 6. Trong hồi quy Logistic, giá trị ngưỡng (threshold) được sử dụng để làm gì?",
+        options: [
+            "Quyết định phân lớp dựa trên xác suất đầu ra",
+            "Chuẩn hóa dữ liệu",
+            "Đánh giá độ chính xác của mô hình",
+            "Giảm kích thước dữ liệu"
+        ],
+        answer: "Quyết định phân lớp dựa trên xác suất đầu ra"
+    },
+    {
+        id: 507,
+        chapter: 21,
+        question: "Câu 7. Tại sao Laplace smoothing giúp cải thiện độ chính xác trong Naive Bayes?",
+        options: [
+            "Vì giảm ảnh hưởng của các sự kiện hiếm",
+            "Vì tăng số lượng dữ liệu huấn luyện",
+            "Vì loại bỏ dữ liệu nhiễu",
+            "Vì giảm độ lệch của mô hình"
+        ],
+        answer: "Vì giảm ảnh hưởng của các sự kiện hiếm"
+    },
+    {
+        id: 508,
+        chapter: 21,
+        question: "Câu 8. Trong thuật toán k-Nearest Neighbors (kNN), giá trị k dùng để chỉ điều gì?",
+        options: [
+            "Số láng giềng gần nhất",
+            "Số lớp trong dữ liệu",
+            "Số chiều dữ liệu",
+            "Thước đo khoảng cách"
+        ],
+        answer: "Số láng giềng gần nhất"
+    },
+    {
+        id: 509,
+        chapter: 21,
+        question: "Câu 9. Lý do CHÍNH của việc cắt tỉa (pruning) trong thuật toán cây quyết định là gì?",
+        options: [
+            "Giảm hiện tượng overfitting",
+            "Tăng độ phức tạp mô hình",
+            "Giảm thời gian huấn luyện",
+            "Tăng khả năng diễn giải mô hình"
+        ],
+        answer: "Giảm hiện tượng overfitting"
+    },
+    {
+        id: 510,
+        chapter: 21,
+        question: "Câu 10. Đầu ra của hàm kích hoạt Sigmoid nằm trong khoảng nào?",
+        options: [
+            "(0, 1)",
+            "(-1, 1)",
+            "(0, 2)",
+            "(0, 5)"
+        ],
+        answer: "(0, 1)"
+    },
+    {
+        id: 511,
+        chapter: 21,
+        question: "Câu 15. Cho tập dữ liệu, khi sử dụng thuộc tính “Symptom 3” để phân chia trong cây quyết định, Information Gain thu được là bao nhiêu?",
+        options: [
+            "0.74",
+            "0.13",
+            "0.73",
+            "0.86"
+        ],
+        answer: "0.74"
+    },
+    {
+        id: 512,
+        chapter: 21,
+        question: "Câu 16. Cho tập dữ liệu 2 chiều. Với thuật toán Hard Margin SVM, vector trọng số và bias thu được là:",
+        options: [
+            "w = [-1.55, 2.89], b = 1.03",
+            "w = [-1.22, -6.0], b = 1.25",
+            "w = [-1.55, 2.89], b = 4.95",
+            "w = [0.21, -0.63], b = 1.03"
+        ],
+        answer: "w = [-1.55, 2.89], b = 1.03"
+    },
+    {
+        id: 513,
+        chapter: 21,
+        question: "Câu 17. Giả sử một nơ-ron với vector trọng số ban đầu và bias cho trước. Sau một bước cập nhật, vector trọng số mới là:",
+        options: [
+            "w = [-6.7, -3.4, 5.2]",
+            "w = [-12.2, -6.0, 12.5]",
+            "w = [-4.0, -2.1, 1.6]",
+            "w = [-6.7, -3.4, 5.2]"
+        ],
+        answer: "w = [-6.7, -3.4, 5.2]"
+    },
+    {
+        id: 514,
+        chapter: 21,
+        question: "Câu 18. Kỹ thuật nào giúp tối ưu chi phí tính toán khoảng cách trong kNN khi dữ liệu có số chiều lớn?",
+        options: [
+            "Approximate Nearest Neighbors",
+            "Brute Force",
+            "KD-Tree",
+            "Ball-Tree"
+        ],
+        answer: "Approximate Nearest Neighbors"
     }
 ];
